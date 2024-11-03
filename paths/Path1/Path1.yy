@@ -1,0 +1,23 @@
+{
+  "$GMPath":"",
+  "%Name":"Path1",
+  "closed":false,
+  "kind":1,
+  "name":"Path1",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":170.0,"y":213.5,},
+    {"speed":100.0,"x":163.0,"y":211.5,},
+    {"speed":100.0,"x":499.0,"y":212.5,},
+    {"speed":100.0,"x":467.0,"y":402.5,},
+    {"speed":100.0,"x":809.0,"y":450.5,},
+    {"speed":100.0,"x":453.0,"y":601.5,},
+    {"speed":100.0,"x":150.0,"y":446.5,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
