@@ -1,10 +1,10 @@
-player_x = obj_player.x;
-player_y = obj_player.y;
+var player_x = oPlayer.x;
+var player_y = oPlayer.y;
 
 move_towards_point(player_x, player_y, walksp);
 
-if (place_meeting(x, y, obj_player)) {
-    oPlayer.health -= damage;
+if (place_meeting(x, y, oPlayer)) {
+    oPlayer.health -= damage * level;
 
     audio_play_sound(snd_damage, 1, false);
    

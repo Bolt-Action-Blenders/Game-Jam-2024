@@ -35,7 +35,9 @@
   },
   "name":"Game-Jam-2024",
   "resources":[
+    {"id":{"name":"oBloodPuddle","path":"objects/oBloodPuddle/oBloodPuddle.yy",},},
     {"id":{"name":"oDemon","path":"objects/oDemon/oDemon.yy",},},
+    {"id":{"name":"oKey","path":"objects/oKey/oKey.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
