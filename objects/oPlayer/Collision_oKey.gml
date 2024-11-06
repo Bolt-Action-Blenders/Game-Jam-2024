@@ -1,6 +1,6 @@
 if (place_meeting(x, y, oKey)) {
 key++;
-        with (instance_place(oDemon.x, oDemon.y, obj_item)) {
+        with (instance_place(x, y, oKey)) {
             instance_destroy();
         }
 }

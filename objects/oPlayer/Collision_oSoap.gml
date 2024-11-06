@@ -1,6 +1,6 @@
-if (place_meeting(x, y, oKey)) {
+if (place_meeting(x, y, oSoap)) {
 health += 60;
-        with (instance_place(oDemon.x, oDemon.y, obj_item)) {
+        with (instance_place( x, y, oSoap)) {
             instance_destroy();
         }
 		audio_play_sound(snd_eating, 1, false)

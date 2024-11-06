@@ -15,12 +15,12 @@ vsp = move * walksp;
 
 y += sign(vsp);
 
-if (!place_meeting(x, y + 1, oWall)) {
+if (!place_meeting(x, y + 1, oWall) || !place_meeting(x, y + 1, oLockedDoor)) {
     vsp = 1;
 } else {
     vsp = 0;
 }
-if (!place_meeting(x+1 ,y, oWall)) {
+if (!place_meeting(x, y + 1, oWall) || !place_meeting(x, y + 1, oLockedDoor)) {
     hsp = 1;
 } else {
     hsp = 0;
