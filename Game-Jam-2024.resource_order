@@ -1,11 +1,15 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Demons","order":8,"path":"folders/Objects/Demons.yy",},
+    {"name":"Elements","order":10,"path":"folders/Objects/Elements.yy",},
+    {"name":"Items","order":9,"path":"folders/Objects/Items.yy",},
+  ],
   "ResourceOrderSettings":[
-    {"name":"oBloodPuddle","order":4,"path":"objects/oBloodPuddle/oBloodPuddle.yy",},
-    {"name":"oKey","order":3,"path":"objects/oKey/oKey.yy",},
-    {"name":"oLockedDoor","order":6,"path":"objects/oLockedDoor/oLockedDoor.yy",},
+    {"name":"oBloodPuddle","order":1,"path":"objects/oBloodPuddle/oBloodPuddle.yy",},
+    {"name":"oDemonMelee","order":1,"path":"objects/oDemonMelee/oDemonMelee.yy",},
+    {"name":"oKey","order":1,"path":"objects/oKey/oKey.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
-    {"name":"oSoap","order":5,"path":"objects/oSoap/oSoap.yy",},
+    {"name":"oTrap","order":2,"path":"objects/oTrap/oTrap.yy",},
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},

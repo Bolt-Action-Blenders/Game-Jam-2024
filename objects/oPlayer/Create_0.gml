@@ -1,14 +1,20 @@
 //stats
-health = 100;
-stamina = 100;
+baseHealth = 90.90909091;
+baseStamina = 90.90909091;
 walkspeed = 2;
-damage = 7;
+baseDamage = 5;
 range = 2;
 blood = 0;
 hsp = 1;
 vsp = 1;
 walkspeed = 1;
 armour = 1;
+level = 1;
+experience = 0;
+damage = baseDamage * (level * 1.5)
+health = baseHealth * (level * 1.1)
+stamina = baseStamina * (level * 1.1)
+
 //items
 mop = false;
 lysol = false;

@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oKey",
+  "%Name":"oDemonRanged",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oKey",
+  "name":"oDemonRanged",
   "overriddenProperties":[],
   "parent":{
-    "name":"Items",
-    "path":"folders/Objects/Items.yy",
+    "name":"Demons",
+    "path":"folders/Objects/Demons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sDemon",
+    "path":"sprites/sDemon/sDemon.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
