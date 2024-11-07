@@ -14,6 +14,7 @@ experience = 0;
 damage = baseDamage * (level * 1.5)
 health = baseHealth * (level * 1.1)
 stamina = baseStamina * (level * 1.1)
+cooldown_time = 1;
 
 //items
 mop = false;
