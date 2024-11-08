@@ -1,9 +1,10 @@
-// Step Event
-
+var last_action_time;
 // Horizontal movement (left and right)
 if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
+			show_debug_message("Move");
     h_speed = -move_speed;
 } else if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
+			show_debug_message("Move");
     h_speed = move_speed;
 } else {
     h_speed = 0;
