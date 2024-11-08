@@ -38,10 +38,10 @@ if (!sprinting && stamina < max_stamina) {
 x += h_speed;
 y += v_speed;
 
-if (place_meeting(x, y + vsp, oWall) || place_meeting(x, y + vsp, oLockedDoor)) {
+if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)) {
 	v_speed = 0;
 }
-if (place_meeting( x + hsp, y, oWall) || place_meeting(x + hsp, y, oLockedDoor)) {
+if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)) {
 	h_speed = 0;
 }
 if (place_meeting(x, y, oTrap)) {
@@ -49,5 +49,5 @@ if (place_meeting(x, y, oTrap)) {
 		last_action_time = global.time;
     health -= oTrap.damage;
 	}}
-	x += hsp;
-	y += vsp;
+	x += h_speed;
+	y += v_speed;
