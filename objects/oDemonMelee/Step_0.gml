@@ -1,6 +1,5 @@
 var player_x = oPlayer.x;
 var player_y = oPlayer.y;
-var cooldown_time = 1;  // cooldown time in seconds
 var last_action_time = 0; // last time action was performed
 
 move_towards_point(player_x, player_y, walksp);

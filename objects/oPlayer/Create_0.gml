@@ -1,13 +1,12 @@
 //stats
 baseHealth = 90.90909091;
 baseStamina = 90.90909091;
-walkspeed = 2;
+walkspeed = 3;
 baseDamage = 5;
 range = 2;
 blood = 0;
 hsp = 1;
 vsp = 1;
-walkspeed = 1;
 armour = 1;
 level = 1;
 experience = 0;
