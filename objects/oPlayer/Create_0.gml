@@ -1,6 +1,7 @@
-move_speed = 4;         
-max_speed = 8;           
-acceleration = 0.2;      
+game_set_speed(60, 60);
+move_speed = 2;         
+max_speed = 4;           
+acceleration = 0.1;      
 deceleration = 0.1;          
 stamina_drain_rate = 1;     
 stamina_regen_rate = 0.5;    

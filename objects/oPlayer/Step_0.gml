@@ -2,20 +2,20 @@
 
 // Horizontal movement (left and right)
 if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
-    h_speed = max(h_speed - acceleration, -max_speed);  // Accelerate left
+    h_speed = -move_speed;
 } else if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
-    h_speed = min(h_speed + acceleration, max_speed);  // Accelerate right
+    h_speed = move_speed;
 } else {
-    h_speed *= 1 - deceleration;  // Gradually slow down horizontally
+    h_speed = 0;
 }
 
 // Vertical movement (up and down)
 if (keyboard_check(vk_up) || keyboard_check(ord("W"))){
-    v_speed = max(v_speed - acceleration, -max_speed);  // Accelerate up
+    v_speed = -move_speed;
 } else if (keyboard_check(vk_down) || keyboard_check(ord("S"))){
-    v_speed = min(v_speed + acceleration, max_speed);  // Accelerate down
+    v_speed = move_speed
 } else {
-    v_speed *= 1 - deceleration;  // Gradually slow down vertically
+    v_speed = 0;
 }
 
 // Sprint with shift key (only if stamina allows)
@@ -34,12 +34,9 @@ if (!sprinting && stamina < max_stamina) {
     stamina = min(stamina, max_stamina);  // Ensure stamina does not exceed max
 }
 
-// Apply the movement speeds
-x += h_speed;
-y += v_speed;
-
 if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)) {
 	v_speed = 0;
+
 }
 if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)) {
 	h_speed = 0;
@@ -49,5 +46,17 @@ if (place_meeting(x, y, oTrap)) {
 		last_action_time = global.time;
     health -= oTrap.damage;
 	}}
+	if (h_speed > max_speed){
+	h_speed = max_speed
+	}
+	if (v_speed > max_speed){
+	v_speed = max_speed
+	}
+	/*
+	if (h_speed + v_speed > max_speed){
+	h_speed = sqrt(move_speed^2*2);
+	v_speed = sqrt(move_speed^2*2);
+	}
+	*/
 	x += h_speed;
 	y += v_speed;
