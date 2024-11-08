@@ -1,18 +1,24 @@
-//stats
+move_speed = 4;         
+max_speed = 8;           
+acceleration = 0.2;      
+deceleration = 0.1;          
+stamina_drain_rate = 1;     
+stamina_regen_rate = 0.5;    
+h_speed = 0;            
+v_speed = 0;               
+sprinting = false;          
 baseHealth = 90.90909091;
 baseStamina = 90.90909091;
-walksp = 5;
 baseDamage = 5;
 range = 2;
 blood = 0;
-hsp = 1;
-vsp = 1;
 armour = 1;
 level = 1;
 experience = 0;
 damage = baseDamage * (level * 1.5)
 health = baseHealth * (level * 1.1)
 stamina = baseStamina * (level * 1.1)
+max_stamina = baseStamina * (level * 1.1)
 cooldown_time = 1;
 
 //items
