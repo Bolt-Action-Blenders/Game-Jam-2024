@@ -1,7 +1,7 @@
 //stats
 baseHealth = 90.90909091;
 baseStamina = 90.90909091;
-walkspeed = 3;
+walksp = 5;
 baseDamage = 5;
 range = 2;
 blood = 0;
@@ -23,3 +23,5 @@ gun = false;
 bucket = false;
 ammo = 0;
 keys = 0;
+
+global.time = 0;

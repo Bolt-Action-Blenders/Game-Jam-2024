@@ -13,7 +13,7 @@ var angle_diff = abs(direction - angle_to_enemy && distance_to_enemy <= range);
 if (global.time - last_action_time >= cooldown_time) {
 if (angle_diff < 45 || angle_diff > 315) {
     Enemies[i].health -= damage + blood;
-	last_action_time = global.time;
+	last_action_time = global.time
 }}
  if (Enemies[i].health <= 0){
         with (instance_place(Enemies[i].x, Enemies[i].y, Enemies[i])) {
