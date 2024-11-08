@@ -7,29 +7,21 @@ var move = key_right - key_left;
 var move2 =  key_up - key_down  ;
 global.time++
 hsp = move * walksp;
-
-
-
 vsp = move2	 * walksp * -1;
 
-
-if (!place_meeting(x, y + vsp, oWall) || !place_meeting(x, y + 1, oLockedDoor)) {
-			
-					y += vsp;
-   
-} else {
-	
-}
-if (!place_meeting(x, y + 1, oWall) || !place_meeting(x, y + 1, oLockedDoor)) {
-	
-   	x += hsp;
-} else {
+for (i = 0; i < vsp; i++){
 
 }
-if (place_meeting(x, y + 1, oTrap) || !place_meeting(x, y + 1, oTrap)) {
+if (place_meeting(x, y + vsp, oWall) || !place_meeting(x, y + vsp, oLockedDoor)) {
+	vsp = 0
+}
+if (place_meeting( x +hsp, y, oWall) || !place_meeting(x + hsp, y, oLockedDoor)) {
+	hsp = 0;
+}
+if (place_meeting(x, y, oTrap) {
 	if (global.time - last_action_time >= cooldown_time) {
 		last_action_time = global.time;
- //   health -= oTrap.damage;
+    health -= oTrap.damage;
 	}}
 	x += hsp;
 	y += vsp;
