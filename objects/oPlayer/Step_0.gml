@@ -1,5 +1,7 @@
 var last_action_time;
-
+if test!=1{
+show_debug_message(test)}
+test=1
 direction = point_direction(x, y, mouse_x, mouse_y);
 
 // Horizontal movement (left and right)
@@ -38,11 +40,11 @@ if (!sprinting && stamina < max_stamina) {
     stamina = min(stamina, max_stamina);  // Ensure stamina does not exceed max
 }
 
-if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)||place_meeting( x + v_speed, y, Overyscarypitofsadnessanddispair)) {
+if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)) {
 	v_speed = 0;
 
 }
-if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)||place_meeting( x + h_speed, y, Overyscarypitofsadnessanddispair)) {
+if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)) {
 	h_speed = 0;
 }
 if (place_meeting(x, y, oTrap)) {
