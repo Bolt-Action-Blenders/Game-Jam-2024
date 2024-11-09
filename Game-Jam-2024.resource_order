@@ -1,11 +1,4 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[
-    {"name":"oBloodPuddle","order":1,"path":"objects/oBloodPuddle/oBloodPuddle.yy",},
-    {"name":"oLockedDoor","order":5,"path":"objects/oLockedDoor/oLockedDoor.yy",},
-    {"name":"Oposter_image","order":4,"path":"objects/Oposter_image/Oposter_image.yy",},
-    {"name":"Oposter","order":6,"path":"objects/Oposter/Oposter.yy",},
-    {"name":"oTrap","order":3,"path":"objects/oTrap/oTrap.yy",},
-    {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
-  ],
+  "ResourceOrderSettings":[],
 }

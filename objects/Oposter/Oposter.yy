@@ -9,8 +9,8 @@
   "name":"Oposter",
   "overriddenProperties":[],
   "parent":{
-    "name":"Elements",
-    "path":"folders/Objects/Elements.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
