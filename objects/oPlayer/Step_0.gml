@@ -1,7 +1,3 @@
-var last_action_time;
-if test!=1{
-show_debug_message(test)}
-test=1
 direction = point_direction(x, y, mouse_x, mouse_y);
 
 // Horizontal movement (left and right)
