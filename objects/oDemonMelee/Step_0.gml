@@ -1,3 +1,7 @@
+if (health <= 0){
+instance_destroy(oDemonMelee)
+}
+
 var player_x = oPlayer.x;
 var player_y = oPlayer.y;
 var last_action_time = 0; 

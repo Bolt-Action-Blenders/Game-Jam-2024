@@ -1,4 +1,7 @@
 var last_action_time;
+
+direction = point_direction(x, y, mouse_x, mouse_y);
+
 // Horizontal movement (left and right)
 if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
 			show_debug_message("Move");
@@ -53,11 +56,5 @@ if (place_meeting(x, y, oTrap)) {
 	if (v_speed > max_speed){
 	v_speed = max_speed
 	}
-	/*
-	if (h_speed + v_speed > max_speed){
-	h_speed = sqrt(move_speed^2*2);
-	v_speed = sqrt(move_speed^2*2);
-	}
-	*/
 	x += h_speed;
 	y += v_speed;

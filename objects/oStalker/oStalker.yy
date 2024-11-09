@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oTrap",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oStalker",
+  "eventList":[],
   "managed":true,
-  "name":"oTrap",
+  "name":"oStalker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Elements",
-    "path":"folders/Objects/Elements.yy",
+    "name":"Demons",
+    "path":"folders/Objects/Demons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
