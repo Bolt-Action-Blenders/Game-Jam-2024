@@ -1,6 +1,7 @@
 baseHealth = [10, 10, 20];
 walkspeeds = [2, 1, 3];
 baseDamage = [2, 4, 0.5];
+   show_debug_message(baseDamage[1])
 // type = {"Gun", "Shotgun", "Pyro"};
 cooldownTimes = [1.5, 1.5, 0.1]
 type_level = [1, 3, 10];

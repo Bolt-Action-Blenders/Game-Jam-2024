@@ -34,11 +34,11 @@ if (!sprinting && stamina < max_stamina) {
     stamina = min(stamina, max_stamina);  // Ensure stamina does not exceed max
 }
 
-if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)) {
+if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)||place_meeting( x + v_speed, y, Overyscarypitofsadnessanddispair)) {
 	v_speed = 0;
 
 }
-if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)) {
+if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)||place_meeting( x + h_speed, y, Overyscarypitofsadnessanddispair)) {
 	h_speed = 0;
 }
 if (place_meeting(x, y, oTrap)) {
@@ -60,3 +60,5 @@ if (place_meeting(x, y, oTrap)) {
 	*/
 	x += h_speed;
 	y += v_speed;
+	if (mouse_check_button_pressed(mb_left)) {
+        show_debug_message("Clicked");}
