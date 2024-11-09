@@ -58,5 +58,3 @@ if (place_meeting(x, y, oTrap)) {
 	}
 	x += h_speed;
 	y += v_speed;
-	if (mouse_check_button_pressed(mb_left)) {
-        show_debug_message("Clicked");}
