@@ -62,7 +62,7 @@ var demon_last_action_time = 0;
 // Check if the player is within 3 units of the object
 if (distance_to_object(oDemonRegular) <= 3) {
     // Calculate damage based on the player's level
-    var demon_cooldown_time = 10000; // Set the cooldown time (in frames)
+    var demon_cooldown_time = 5000; // Set the cooldown time (in frames)
     
     if (current_time - global.last_action_time >= demon_cooldown_time) {
         // Apply damage to the player

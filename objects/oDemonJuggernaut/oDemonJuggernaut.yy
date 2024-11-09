@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oDemonRegular",
+  "%Name":"oDemonJuggernaut",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oDemonRegular",
+  "name":"oDemonJuggernaut",
   "overriddenProperties":[],
   "parent":{
-    "name":"Demons",
-    "path":"folders/Objects/Demons.yy",
+    "name":"MeleeDemons",
+    "path":"folders/Objects/Demons/MeleeDemons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

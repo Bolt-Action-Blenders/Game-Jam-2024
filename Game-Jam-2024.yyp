@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Demons","folderPath":"folders/Objects/Demons.yy","name":"Demons","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"MeleeDemons","folderPath":"folders/Objects/Demons/MeleeDemons.yy","name":"MeleeDemons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Elements","folderPath":"folders/Objects/Elements.yy","name":"Elements","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Items","folderPath":"folders/Objects/Items.yy","name":"Items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -40,6 +41,8 @@
   "resources":[
     {"id":{"name":"FinalBoss","path":"objects/FinalBoss/FinalBoss.yy",},},
     {"id":{"name":"oBloodPuddle","path":"objects/oBloodPuddle/oBloodPuddle.yy",},},
+    {"id":{"name":"oDemonFast","path":"objects/oDemonFast/oDemonFast.yy",},},
+    {"id":{"name":"oDemonJuggernaut","path":"objects/oDemonJuggernaut/oDemonJuggernaut.yy",},},
     {"id":{"name":"obutton","path":"objects/obutton/obutton.yy",},},
     {"id":{"name":"oDemonRanged","path":"objects/oDemonRanged/oDemonRanged.yy",},},
     {"id":{"name":"oDemonRegular","path":"objects/oDemonRegular/oDemonRegular.yy",},},

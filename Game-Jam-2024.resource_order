@@ -1,4 +1,12 @@
 {
+  "FolderOrderSettings":[
+    {"name":"MeleeDemons","order":2,"path":"folders/Objects/Demons/MeleeDemons.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oDemonFast","order":1,"path":"objects/oDemonFast/oDemonFast.yy",},
+    {"name":"oDemonJuggernaut","order":2,"path":"objects/oDemonJuggernaut/oDemonJuggernaut.yy",},
+    {"name":"oShitDemon","order":3,"path":"objects/oShitDemon/oShitDemon.yy",},
+  ],
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"obutton","order":7,"path":"objects/obutton/obutton.yy",},
