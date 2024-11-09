@@ -1,6 +1,6 @@
 var player_x = oPlayer.x;
 var player_y = oPlayer.y;
-var cooldown_time = 2;  // cooldown time in seconds
+var cooldown_time = 20000000;  // cooldown time in seconds
 var last_action_time = 0; // last time action was performed
 
 // Calculate the angle between the player and the enemy object

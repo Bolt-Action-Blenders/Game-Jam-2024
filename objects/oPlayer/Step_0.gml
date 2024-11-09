@@ -47,6 +47,7 @@ if (place_meeting(x, y, oTrap)) {
 	if (global.time - last_action_time >= cooldown_time) {
 		 last_action_time = global.time;
     health -= oTrap.damage;
+
 	}}
 	if (h_speed > max_speed){
 	h_speed = max_speed

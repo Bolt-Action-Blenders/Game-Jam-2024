@@ -2,6 +2,7 @@ var enemy_objects = [oDemonRegular, oDemonRanged, oTrap];
 var last_action_time = 0; // last time action was performed
 var closest_enemy = noone;  // Start with no closest enemy
 var min_distance = 999999;  // Start with a very large distance
+        show_debug_message("Player's health: " + string(health));
 // Iterate through the enemy object types to find the closest instance
 for (var i = 0; i < array_length(enemy_objects); i++) {
     // Iterate over all instances of the current enemy object type
