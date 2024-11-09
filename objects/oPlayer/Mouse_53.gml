@@ -40,6 +40,17 @@ if (mouse_check_button_pressed(mb_left)) {
 if (global.time - last_action_time >= cooldown_time) {
 			show_debug_message("Cooldowm good");
 if (angle_diff < 45 || angle_diff > 315) {
+    show_debug_message("Attacked demon");
+    Enemies[i].health -= damage + blood;
+    last_action_time = global.time
+}}}
+ if (Enemies[i].health <= 0){
+             show_debug_message("Killed");
+        with (instance_place(Enemies[i].x, Enemies[i].y, Enemies[i])) {
+            instance_destroy();
+        }
+ }
+ }
 	show_debug_message("Attacked demon");
     closest_enemy.health -= damage + blood;
 	last_action_time = global.time
