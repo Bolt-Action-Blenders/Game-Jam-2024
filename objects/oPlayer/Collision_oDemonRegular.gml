@@ -1,4 +1,3 @@
-// Create an array of object types (this is fine)
 var enemy_objects = [oDemonRegular, oDemonRanged, oTrap]; 
 var last_action_time = 0; // last time action was performed
 var closest_enemy = noone;  // Start with no closest enemy
@@ -66,10 +65,12 @@ if (distance_to_object(oDemonRegular) <= 3) {
     // Calculate damage based on the player's level
     var demon_cooldown_time = 1; // Set the cooldown time (in frames)
     
-    global.time++; // Increment global time (used for cooldown tracking)
+    if (current_time - global.last_action_time >= cooldown_time) {
+        // Apply damage to the player
+       health -= damage;
 
-    // Ensure enough time has passed for the cooldown before attacking
-    if (global.time - demon_last_action_time >= cooldown_time) {
+        // Update the last action time to the current time
+        global.last_action_time = current_time;
         // Apply damage to the player
 		health -= level * 2;;
 
