@@ -44,17 +44,18 @@ if (angle_diff < 45 || angle_diff > 315) {
     Enemies[i].health -= damage + blood;
     last_action_time = global.time
 }}}
- if (Enemies[i].health <= 0){
+ if (closest_enemy <= 0){
              show_debug_message("Killed");
         with (instance_place(Enemies[i].x, Enemies[i].y, Enemies[i])) {
             instance_destroy();
         }
  }
- }
+ 
 	show_debug_message("Attacked demon");
     closest_enemy.health -= damage + blood;
 	last_action_time = global.time
-}}}
+	
+
  /*
 var enemy_x = oDemonMelee.x;
 var enemy_y = oDemonMelee.y;
