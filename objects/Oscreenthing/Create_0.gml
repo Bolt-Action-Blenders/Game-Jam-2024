@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-time=0
-y = 350
+speed = 5
+direction=randomize() 

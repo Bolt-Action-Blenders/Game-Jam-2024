@@ -40,6 +40,7 @@
   "resources":[
     {"id":{"name":"FinalBoss","path":"objects/FinalBoss/FinalBoss.yy",},},
     {"id":{"name":"oBloodPuddle","path":"objects/oBloodPuddle/oBloodPuddle.yy",},},
+    {"id":{"name":"obutton","path":"objects/obutton/obutton.yy",},},
     {"id":{"name":"oDemonRanged","path":"objects/oDemonRanged/oDemonRanged.yy",},},
     {"id":{"name":"oDemonRegular","path":"objects/oDemonRegular/oDemonRegular.yy",},},
     {"id":{"name":"oKey","path":"objects/oKey/oKey.yy",},},
@@ -47,6 +48,8 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Oposter_image","path":"objects/Oposter_image/Oposter_image.yy",},},
     {"id":{"name":"Oposter","path":"objects/Oposter/Oposter.yy",},},
+    {"id":{"name":"Oscreenshake","path":"objects/Oscreenshake/Oscreenshake.yy",},},
+    {"id":{"name":"Oscreenthing","path":"objects/Oscreenthing/Oscreenthing.yy",},},
     {"id":{"name":"oShitDemon","path":"objects/oShitDemon/oShitDemon.yy",},},
     {"id":{"name":"oShitToilet","path":"objects/oShitToilet/oShitToilet.yy",},},
     {"id":{"name":"oSoap","path":"objects/oSoap/oSoap.yy",},},
@@ -56,7 +59,10 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"oRatKing","path":"sprites/oRatKing/oRatKing.yy",},},
+    {"id":{"name":"sbutton_1","path":"sprites/sbutton_1/sbutton_1.yy",},},
+    {"id":{"name":"sbutton","path":"sprites/sbutton/sbutton.yy",},},
     {"id":{"name":"sDemon","path":"sprites/sDemon/sDemon.yy",},},
     {"id":{"name":"Sfloor","path":"sprites/Sfloor/Sfloor.yy",},},
     {"id":{"name":"Spantsshitinglscary","path":"sprites/Spantsshitinglscary/Spantsshitinglscary.yy",},},
@@ -71,6 +77,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

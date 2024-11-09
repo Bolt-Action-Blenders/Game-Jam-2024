@@ -1,4 +1,16 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obutton","order":7,"path":"objects/obutton/obutton.yy",},
+    {"name":"oLockedDoor","order":5,"path":"objects/oLockedDoor/oLockedDoor.yy",},
+    {"name":"Oposter_image","order":3,"path":"objects/Oposter_image/Oposter_image.yy",},
+    {"name":"Oscreenshake","order":1,"path":"objects/Oscreenshake/Oscreenshake.yy",},
+    {"name":"Oscreenthing","order":6,"path":"objects/Oscreenthing/Oscreenthing.yy",},
+    {"name":"oTrap","order":4,"path":"objects/oTrap/oTrap.yy",},
+    {"name":"Overyscarypitofsadnessanddispair","order":2,"path":"objects/Overyscarypitofsadnessanddispair/Overyscarypitofsadnessanddispair.yy",},
+    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"Room3","order":1,"path":"rooms/Room3/Room3.yy",},
+    {"name":"sbutton_1","order":2,"path":"sprites/sbutton_1/sbutton_1.yy",},
+    {"name":"sbutton","order":1,"path":"sprites/sbutton/sbutton.yy",},
+  ],
 }

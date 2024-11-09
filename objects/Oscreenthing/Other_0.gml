@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-time=0
-y = 350
+x=0
+direction=random_range(45,135)
