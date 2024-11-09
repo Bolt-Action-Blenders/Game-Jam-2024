@@ -40,8 +40,8 @@
   "resources":[
     {"id":{"name":"FinalBoss","path":"objects/FinalBoss/FinalBoss.yy",},},
     {"id":{"name":"oBloodPuddle","path":"objects/oBloodPuddle/oBloodPuddle.yy",},},
-    {"id":{"name":"oDemonMelee","path":"objects/oDemonMelee/oDemonMelee.yy",},},
     {"id":{"name":"oDemonRanged","path":"objects/oDemonRanged/oDemonRanged.yy",},},
+    {"id":{"name":"oDemonRegular","path":"objects/oDemonRegular/oDemonRegular.yy",},},
     {"id":{"name":"oKey","path":"objects/oKey/oKey.yy",},},
     {"id":{"name":"oLockedDoor","path":"objects/oLockedDoor/oLockedDoor.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},

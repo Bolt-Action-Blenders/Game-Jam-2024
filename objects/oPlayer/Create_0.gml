@@ -1,4 +1,11 @@
 game_set_speed(60, 60);
+/*
+baseHealth = [10, 30, 100, 5, 15, 95, 50, 10];
+walkspeeds = [2, 2, 1, 5, 4, 1, 1, 2];
+baseDamage = [2, 10, 35, 2, 20, 25, 9, 1];
+//ype = {"Regular", "Shit", "Juggernaut", "Fast", "Scout", "Heavy", "Robot", "Worker"};
+cooldownTimes = [1.5, 3, 3, 0.4, 1.5, 2, 1.4]
+*/
 move_speed = 2;         
 max_speed = 4;           
 acceleration = 0.1;      

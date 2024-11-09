@@ -1,10 +1,8 @@
-/*
 // Create an array of object types (this is fine)
 var enemy_objects = [oDemonRegular, oDemonRanged, oTrap]; 
 var last_action_time = 0; // last time action was performed
 var closest_enemy = noone;  // Start with no closest enemy
 var min_distance = 999999;  // Start with a very large distance
-
 // Iterate through the enemy object types to find the closest instance
 for (var i = 0; i < array_length(enemy_objects); i++) {
     // Iterate over all instances of the current enemy object type
@@ -48,11 +46,37 @@ if (closest_enemy != noone) {
                 show_debug_message("Attacked demon");
 
                 // Apply damage to the closest enemy
-                enemy_instance.health -= damage + blood;  // Apply damage to the instance
+                enemy_instance.demonHealth -= damage + blood;  // Apply damage to the instance
 
                 // Update the last action time
                 last_action_time = global.time;
+				
             }
         }
+    }
+}
+
+
+// Initialize last_action_time if not already done elsewhere
+var demon_last_action_time = 0;
+
+// Check if the player is within 3 units of the object
+if (distance_to_object(oDemonRegular) <= 3) {
+	show_debug_message("ouch");
+    // Calculate damage based on the player's level
+    var demon_cooldown_time = 1; // Set the cooldown time (in frames)
+    
+    global.time++; // Increment global time (used for cooldown tracking)
+
+    // Ensure enough time has passed for the cooldown before attacking
+    if (global.time - demon_last_action_time >= cooldown_time) {
+        // Apply damage to the player
+		health -= level * 2;;
+
+        // Update the last action time to the current global time
+        last_action_time = global.time;
+
+        // Debug message to show the player's current health
+        show_debug_message("Player's health: " + string(health));
     }
 }
