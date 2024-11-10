@@ -11,11 +11,11 @@ var player_y = oPlayer.y;
 h_speed = walksp;
 v_speed = walksp;
 
-if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)) {
+if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor) || place_meeting(x, y + v_speed, oWallFake)) {
 	v_speed = 0;
 
 }
-if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)) {
+if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)|| place_meeting(x + h_speed, y, oWallFake)) {
 	h_speed = 0;
 }
 
