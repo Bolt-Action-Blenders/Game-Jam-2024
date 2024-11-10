@@ -13,3 +13,4 @@ stamina = baseStamina[demoniD] * (level * 1.1);
 cooldown_time = cooldownTime[demonID];
 walksp = walkspeeds[demonID];
 // mame = type[demonID];
+shotcooldown = 0

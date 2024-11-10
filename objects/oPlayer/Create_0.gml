@@ -7,10 +7,10 @@ baseDamage = [2, 10, 35, 2, 20, 25, 9, 1];
 cooldownTimes = [1.5, 3, 3, 0.4, 1.5, 2, 1.4]
 */
 global.last_action_time = 0;
-move_speed = 2;         
-max_speed = 4;           
-acceleration = 0.1;      
-deceleration = 0.1;          
+move_speed = 4;         
+max_speed = 8;           
+acceleration = 0.2;      
+deceleration = 0.2;          
 stamina_drain_rate = 1;     
 stamina_regen_rate = 0.5;    
 h_speed = 0;            
