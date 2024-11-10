@@ -19,7 +19,6 @@ if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLock
 	h_speed = 0;
 }
 
-if (distance_to_object(oPlayer) > range){
-x += sign(player_x - x) * h_speed
-y += sign(player_y - x) * v_speed
-}
+
+x += sign(player_x - x) * h_speed * -1
+y += sign(player_y - x) * v_speed * -1

@@ -2,10 +2,8 @@ direction = point_direction(x, y, mouse_x, mouse_y);
 var last_action_time = 0;
 // Horizontal movement (left and right)
 if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
-			show_debug_message("Move");
     h_speed = -move_speed;
 } else if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
-			show_debug_message("Move");
     h_speed = move_speed;
 } else {
     h_speed = 0;
@@ -46,7 +44,7 @@ if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLock
 if (place_meeting(x, y, oTrap)) {
 	if (global.time - last_action_time >= cooldown_time) {
 		 last_action_time = global.time;
-    health -= oTrap.damage;
+    health -= 10;
 	}}
 	if (h_speed > max_speed){
 	h_speed = max_speed

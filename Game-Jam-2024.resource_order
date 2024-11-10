@@ -1,4 +1,22 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Miscellaneous","order":1,"path":"folders/Objects/Demons/Miscellaneous.yy",},
+    {"name":"RangedDemons","order":2,"path":"folders/Objects/Demons/RangedDemons.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"FinalBoss","order":3,"path":"objects/FinalBoss/FinalBoss.yy",},
+    {"name":"oDemonDemo","order":2,"path":"objects/oDemonDemo/oDemonDemo.yy",},
+    {"name":"oDemonFast","order":2,"path":"objects/oDemonFast/oDemonFast.yy",},
+    {"name":"oDemonGun","order":1,"path":"objects/oDemonGun/oDemonGun.yy",},
+    {"name":"oDemonJuggernaut","order":4,"path":"objects/oDemonJuggernaut/oDemonJuggernaut.yy",},
+    {"name":"oDemonPyro","order":3,"path":"objects/oDemonPyro/oDemonPyro.yy",},
+    {"name":"oDemonRegular","order":1,"path":"objects/oDemonRegular/oDemonRegular.yy",},
+    {"name":"oDemonRobot","order":7,"path":"objects/oDemonRobot/oDemonRobot.yy",},
+    {"name":"oDemonScout","order":5,"path":"objects/oDemonScout/oDemonScout.yy",},
+    {"name":"oShitDemon","order":6,"path":"objects/oShitDemon/oShitDemon.yy",},
+    {"name":"oSpiderFilth","order":3,"path":"objects/oSpiderFilth/oSpiderFilth.yy",},
+    {"name":"oStalker","order":1,"path":"objects/oStalker/oStalker.yy",},
+    {"name":"oSummoner","order":4,"path":"objects/oSummoner/oSummoner.yy",},
+    {"name":"oRatKing","order":2,"path":"sprites/oRatKing/oRatKing.yy",},
+  ],
 }
