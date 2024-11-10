@@ -24,8 +24,8 @@ x += sign(player_x - x) * h_speed * -1
 y += sign(player_y - x) * v_speed * -1
 
 
-    var demon_cooldown_time = 50 * fps; // Set the cooldown time (in frames)
-    if (current_time - global.last_action_time >= demon_cooldown_time) {
-        global.last_action_time = current_time;
+    var demon_cooldown_time = 5; 
+    if (global.time - last_action_time >= demon_cooldown_time) {
+        last_action_time = global.time;
 		instance_create_depth(x, y, 0, oShitDemon);
     }
