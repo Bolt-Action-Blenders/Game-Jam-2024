@@ -8,4 +8,5 @@ if (demonHealth <= 0) {
 var player_x = oPlayer.x;
 var player_y = oPlayer.y;
 
-move_towards_point(player_x, player_y, walksp);
+if (!distance_to_object(oPlayer) <= 1) {
+move_towards_point(player_x, player_y, walksp); }

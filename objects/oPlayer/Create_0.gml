@@ -21,7 +21,6 @@ sprinting = false;
 baseHealth = 90.90909091;
 baseStamina = 90.90909091;
 baseDamage = 5;
-range = 10;
 blood = 0;
 armour = 1;
 level = 1;
@@ -30,7 +29,7 @@ damage = baseDamage * (level * 1.1)
 health = baseHealth * (level * 1.3)
 stamina = baseStamina * (level * 1.3)
 max_stamina = baseStamina * (level * 1.3)
-cooldown_time = 1 / fps / 2;
+cooldown_time = 1;
 experience = 0;
 
 //items
