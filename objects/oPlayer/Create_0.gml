@@ -1,12 +1,17 @@
 game_set_speed(60, 60);
-/*
-baseHealth = [10, 30, 100, 5, 15, 95, 50, 10];
-walkspeeds = [2, 2, 1, 5, 4, 1, 1, 2];
-baseDamage = [2, 10, 35, 2, 20, 25, 9, 1];
-//ype = {"Regular", "Shit", "Juggernaut", "Fast", "Scout", "Heavy", "Robot", "Worker"};
-cooldownTimes = [1.5, 3, 3, 0.4, 1.5, 2, 1.4]
-*/
+
+meleeBaseDamage = [2, 10, 35, 2, 20, 25, 9, 1, 1];
+//ype = {"Regular", "Shit", "Juggernaut", "Fast", "Scout", "Heavy", "Robot", "Worker", "Spiderfilth"};
+meleeCooldownTimes = [1.5, 3, 3, 0.4, 1.5, 2, 1.4, 0.7]
+
+//Gun, Shotgun, Pyro, Demo
+rangedCooldownTimes = [1.5, 1.5, 0.1, 2]
+ranges = [10, 3, 3, 5];
+rangedBaseDamage = [0.1, 2, 4, 5]
+
+level = oPlayer.level;
 global.last_action_time = 0;
+is_poisoned = false;
 move_speed = 2;         
 max_speed = 4;           
 acceleration = 0.1;      
@@ -24,11 +29,12 @@ blood = 0;
 armour = 1;
 level = 1;
 experience = 0;
-damage = baseDamage * (level * 1.5)
-health = baseHealth * (level * 1.1)
-stamina = baseStamina * (level * 1.1)
-max_stamina = baseStamina * (level * 1.1)
-cooldown_time = 2500;
+damage = baseDamage * (level * 1.1) 
+health = baseHealth * (level * 1.3)
+stamina = baseStamina * (level * 1.3)
+max_stamina = baseStamina * (level * 1.3)
+cooldown_time = fps / 2;
+experience = 0;
 
 //items
 mop = false;

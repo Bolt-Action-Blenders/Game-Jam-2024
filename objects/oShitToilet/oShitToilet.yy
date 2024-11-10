@@ -6,8 +6,8 @@
   "name":"oShitToilet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Demons",
-    "path":"folders/Objects/Demons.yy",
+    "name":"Miscellaneous",
+    "path":"folders/Objects/Demons/Miscellaneous.yy",
   },
   "parentObjectId":null,
   "persistent":false,

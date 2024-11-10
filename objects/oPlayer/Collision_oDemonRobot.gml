@@ -57,12 +57,12 @@ if (closest_enemy != noone) {
 }
 
 //Demon code
-var demonID = 0;
+var demonID = 6;
 // Initialize last_action_time if not already done elsewhere
 var demon_last_action_time = 0;
 
 // Check if the player is within 3 units of the object
-if (distance_to_object(oDemonRegular) <= 3) {
+if (distance_to_object(oDemonRobot) <= 3) {
     // Calculate damage based on the player's level
     var demon_cooldown_time = meleeCooldownTimes[demonID] * fps; // Set the cooldown time (in frames)
     

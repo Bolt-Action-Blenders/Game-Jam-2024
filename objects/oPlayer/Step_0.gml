@@ -56,3 +56,22 @@ if (place_meeting(x, y, oTrap)) {
 	}
 	x += h_speed;
 	y += v_speed;
+
+
+//Poison stuff
+var poison_damage = 3;
+var poison_hits = 0;
+	// Check if the player or object is poisoned
+if (is_poisoned) {
+if (poison_hits <= 3){
+	    var poison_cooldown = 3 * fps; // Set the cooldown time (in frames)
+    if (current_time - global.last_action_time >= poison_cooldown) {
+       health -= poison_damage;
+        global.last_action_time = current_time;
+		poison_hits++;
+    }
+} else {
+poison_hits = 0;
+is_poisoned = false;
+}
+}

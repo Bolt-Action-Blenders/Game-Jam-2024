@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Demons",
-    "path":"folders/Objects/Demons.yy",
+    "name":"Miscellaneous",
+    "path":"folders/Objects/Demons/Miscellaneous.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

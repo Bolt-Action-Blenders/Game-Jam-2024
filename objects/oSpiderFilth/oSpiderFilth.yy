@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Oposter",
+  "%Name":"oSpiderFilth",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Oposter",
+  "name":"oSpiderFilth",
   "overriddenProperties":[],
   "parent":{
-    "name":"Elements",
-    "path":"folders/Objects/Elements.yy",
+    "name":"MeleeDemons",
+    "path":"folders/Objects/Demons/MeleeDemons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPoster",
-    "path":"sprites/sPoster/sPoster.yy",
+    "name":"sDemon",
+    "path":"sprites/sDemon/sDemon.yy",
   },
-  "spriteMaskId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

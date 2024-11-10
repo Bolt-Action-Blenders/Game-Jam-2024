@@ -9,8 +9,8 @@
   "name":"oDemonRegular",
   "overriddenProperties":[],
   "parent":{
-    "name":"Demons",
-    "path":"folders/Objects/Demons.yy",
+    "name":"MeleeDemons",
+    "path":"folders/Objects/Demons/MeleeDemons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
