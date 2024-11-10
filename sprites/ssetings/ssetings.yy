@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"sbutton_1",
+  "%Name":"ssetings",
   "bboxMode":0,
   "bbox_bottom":98,
   "bbox_left":12,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"54867dff-e14d-4291-a651-f522c5606f36","blendMode":0,"displayName":"default","isLocked":false,"name":"54867dff-e14d-4291-a651-f522c5606f36","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sbutton_1",
+  "name":"ssetings",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"sbutton",
+    "%Name":"ssetings",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sbutton",
+    "name":"ssetings",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"14a83f81-0047-4652-b062-be45f4336b5c","path":"sprites/sbutton_1/sbutton_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"14a83f81-0047-4652-b062-be45f4336b5c","path":"sprites/ssetings/ssetings.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e9caec42-3bd1-450d-babd-0ca20090383c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

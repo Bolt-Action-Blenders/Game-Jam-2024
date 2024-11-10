@@ -3,6 +3,7 @@
     {"name":"RangedDemons","order":5,"path":"folders/Objects/Demons/RangedDemons.yy",},
     {"name":"MeleeDemons","order":3,"path":"folders/Objects/Demons/MeleeDemons.yy",},
     {"name":"Miscellaneous","order":4,"path":"folders/Objects/Demons/Miscellaneous.yy",},
+    {"name":"hiden rooms","order":2,"path":"folders/Rooms/hiden rooms.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"oBloodPuddle","order":1,"path":"objects/oBloodPuddle/oBloodPuddle.yy",},
@@ -27,5 +28,19 @@
     {"name":"oTrap","order":5,"path":"objects/oTrap/oTrap.yy",},
     {"name":"oWall","order":3,"path":"objects/oWall/oWall.yy",},
     {"name":"oRatKing","order":1,"path":"sprites/oRatKing/oRatKing.yy",},
+  "ResourceOrderSettings":[
+    {"name":"obutton","order":7,"path":"objects/obutton/obutton.yy",},
+    {"name":"oGreyOut","order":10,"path":"objects/oGreyOut/oGreyOut.yy",},
+    {"name":"oLockedDoor","order":5,"path":"objects/oLockedDoor/oLockedDoor.yy",},
+    {"name":"Oposter_image","order":3,"path":"objects/Oposter_image/Oposter_image.yy",},
+    {"name":"Oscreenshake","order":1,"path":"objects/Oscreenshake/Oscreenshake.yy",},
+    {"name":"Oscreenthing","order":6,"path":"objects/Oscreenthing/Oscreenthing.yy",},
+    {"name":"oShitToilet","order":8,"path":"objects/oShitToilet/oShitToilet.yy",},
+    {"name":"oTrap","order":4,"path":"objects/oTrap/oTrap.yy",},
+    {"name":"Overyscarypitofsadnessanddispair","order":2,"path":"objects/Overyscarypitofsadnessanddispair/Overyscarypitofsadnessanddispair.yy",},
+    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"oWallFake","order":9,"path":"objects/oWallFake/oWallFake.yy",},
+    {"name":"Room1_1","order":1,"path":"rooms/Room1_1/Room1_1.yy",},
+    {"name":"sbutton","order":1,"path":"sprites/sbutton/sbutton.yy",},
   ],
 }
