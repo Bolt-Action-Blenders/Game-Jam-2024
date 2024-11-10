@@ -23,3 +23,7 @@ if (distance_to_object(oPlayer) > range){
 x += sign(player_x - x) * h_speed
 y += sign(player_y - x) * v_speed
 }
+if (distance_to_object(oPlayer) < range){
+x += sign(player_x - x) * h_speed * -1
+y += sign(player_y - x) * v_speed * -1
+}

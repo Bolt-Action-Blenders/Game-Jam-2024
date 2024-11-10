@@ -41,6 +41,7 @@ if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLocke
 if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)) {
 	h_speed = 0;
 }
+
 if (place_meeting(x, y, oTrap)) {
 	if (global.time - last_action_time >= cooldown_time) {
 		 last_action_time = global.time;
