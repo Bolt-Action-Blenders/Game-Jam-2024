@@ -62,6 +62,7 @@ if (distance_to_object(oSpiderFilth) <= 3) {
         global.last_action_time = current_time;
         // Apply damage to the player
 		health -= level * meleeBaseDamage[demonID];
+		is_poisoned = true;
         // Update the last action time to the current global time
         demon_last_action_time = global.time;
     }
