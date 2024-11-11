@@ -1,3 +1,11 @@
+var nextLevel = 100 + 10*level;
+if (experience >= nextLevel){
+level++
+experience -= nextLevel;
+health *= 1.5;
+damage *= 1.5;
+stamina *= 1.5
+}
 direction = point_direction(x, y, mouse_x, mouse_y);
 var last_action_time = 0;
 // Horizontal movement (left and right)

@@ -1,4 +1,6 @@
-//Player attacking code
+var rangedExp = [15, 15, 15, 15]
+var meleeExp = [10, 10, 10, 10, 10, 10, 10, 10, 10];
+
 var enemy_objects = [oDemonRegular, oDemonFast, oDemonJuggernaut, oDemonRobot, oDemonWorker, oSpiderFilth, oDemonGun, oDemonDemo, oDemonPyro, oDemonShotgun, oDemonScout, oSummoner, oShitToilet, oTrap]; 
 var closest_enemy = noone;  // Start with no closest enemy
 var min_distance = 999999;  // Start with a very large distance
@@ -36,6 +38,10 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
                 // Apply damage to the closest enemy
                 enemy_instance.demonHealth -= oPlayer.damage + oPlayer.blood;  // Apply damage to the instance
 				 global.last_action_time = global.time;
+				 if (demonHealth <= 0){
+oPlayer.experience += meleeExp[i]
+show_debug_message(oPlayer.experience)
+}
             }
         }
     }
