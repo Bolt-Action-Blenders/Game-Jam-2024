@@ -35,11 +35,8 @@ cooldown_time = 1;
 experience = 0;
 
 //items
-mop = false;
 lysol = false;
-cart = false;
-gun = false;
-bucket = false;
+bucket = true;
 ammo = 0;
 keys = 0;
 

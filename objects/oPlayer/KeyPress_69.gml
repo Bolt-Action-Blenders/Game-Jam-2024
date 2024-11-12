@@ -4,11 +4,10 @@ var meleeExp = [10, 10, 10, 10, 10, 10, 10, 10, 10];
 var enemy_objects = [oDemonRegular, oDemonFast, oDemonJuggernaut, oDemonRobot, oDemonWorker, oSpiderFilth, oDemonGun, oDemonDemo, oDemonPyro, oDemonShotgun, oDemonScout, oSummoner, oShitToilet, oTrap]; 
 var closest_enemy = noone;  // Start with no closest enemy
 var min_distance = 999999;  // Start with a very large distance
-var cooldown_time = 0.1;
+var cooldown_time = 10;
 global.time++;
 var range = 10;
     // Calculate the angle between the player and the enemy object
-	
 for (var i = 0; i < array_length(enemy_objects); i++) {
     // Iterate over all instances of the current enemy object type
     with (enemy_objects[i]) {
@@ -30,9 +29,9 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
     var angle_diff = abs(direction - angle_to_enemy);
     if (angle_diff > 180) angle_diff = 360 - angle_diff; // Ensure the angle difference is within 180 degrees
     // Check if we're within range and if the mouse button is pressed
-    if (min_distance <= range && mouse_check_button_pressed(mb_left)) {
+    if (min_distance <= range && keyboard_check(ord("E") && oPlayer.bucket)) {
             // Check if we're aligned with the enemy (within 45 degrees)
-            if (angle_diff < 90 || angle_diff > 270) {
+            if (angle_diff <= 360 || angle_diff >= 0) {
 				
 				        if (global.time - global.last_action_time >= cooldown_time) {
                 // Apply damage to the closest enemy
