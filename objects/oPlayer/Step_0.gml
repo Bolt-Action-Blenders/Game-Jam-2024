@@ -3,8 +3,10 @@ var last_action_time = 0;
 // Horizontal movement (left and right)
 if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
     h_speed = -move_speed;
+
 } else if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
     h_speed = move_speed;
+
 } else {
     h_speed = 0;
 }
@@ -12,12 +14,14 @@ if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
 // Vertical movement (up and down)
 if (keyboard_check(vk_up) || keyboard_check(ord("W"))){
     v_speed = -move_speed;
+
 } else if (keyboard_check(vk_down) || keyboard_check(ord("S"))){
     v_speed = move_speed
+
 } else {
     v_speed = 0;
 }
-
+	
 // Sprint with shift key (only if stamina allows)
 if (keyboard_check(vk_shift) && stamina > 0) {
     sprinting = true;  // Player is sprinting
@@ -53,6 +57,8 @@ if (place_meeting(x, y, oTrap)) {
 	if (v_speed > max_speed){
 	v_speed = max_speed
 	}
+	view_yport=y*-1+350
+	view_xport=x*-1+700
 	x += h_speed;
 	y += v_speed;
 
@@ -74,3 +80,4 @@ poison_hits = 0;
 is_poisoned = false;
 }
 }
+

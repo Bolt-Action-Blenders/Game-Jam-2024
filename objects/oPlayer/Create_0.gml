@@ -32,7 +32,7 @@ stamina = baseStamina * (level * 1.3)
 max_stamina = baseStamina * (level * 1.3)
 cooldown_time = 1 / fps / 2;
 experience = 0;
-
+previous = 0
 //items
 mop = false;
 lysol = false;
