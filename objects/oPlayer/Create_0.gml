@@ -33,7 +33,7 @@ stamina = baseStamina;
 max_stamina = baseStamina;
 cooldown_time = 1;
 experience = 0;
-
+previous = 0
 //items
 lysol = false;
 bucket = true;

@@ -54,14 +54,13 @@ var demon_last_action_time;
 
 // Check if the player is within 3 units of the object
 if (distance_to_object(oDemonGun) <= ranges[demonID]) {
-    // Calculate damage based on the player's level
-    var demon_cooldown_time = rangedCooldownTimes[demonID] * fps; // Set the cooldown time (in frames)
-    if (current_time - global.last_action_time >= demon_cooldown_time) {
-        // Update the last action time to the current time
-        global.last_action_time = current_time;
+    var demon_cooldown_time = rangedCooldownTimes[demonID];
+    show_debug_message(health)
+    if (global.time - last_action_time >= demon_cooldown_time) {
         // Apply damage to the player
 		health -= level * rangedBaseDamage[demonID];
         // Update the last action time to the current global time
-        demon_last_action_time = global.time;
+        last_action_time = global.time;
     }
 }
+

@@ -1,12 +1,9 @@
-hidden = [RoomH1,2]
-xyInRooms = [700,160]
-current_room=[Room1_1,Room1_2]
-roomNow = array_get_index(current_room,room)
-if roomNow==-1
-{
-roomNow = array_get_index(hidden,room)
-
-}
-room = hidden[roomNow]
-oPlayer.x =xyInRooms[roomNow*2]
-oPlayer.y =xyInRooms[roomNow*2+1]
+/// @description Insert description here
+// You can write your code in this editor
+ea = [Room1_1,Room1_2]
+eae = [Roomh1]
+postion = [600,160]
+roomNow = array_get_index(ea,room)
+oPlayer.x = postion[roomNow*2]
+oPlayer.y = postion[roomNow*2+1]
+room = eae[roomNow]
