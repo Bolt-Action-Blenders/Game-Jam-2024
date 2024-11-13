@@ -8,9 +8,6 @@ var lerp_speed = 0.1;
 // Lerp (smooth) the camera towards the player's position
 view_xview[0] = lerp(view_xview[0], target_x - room_width / 2, lerp_speed);
 view_yview[0] = lerp(view_yview[0], target_y - room_height / 2, lerp_speed);
-var target_x = oPlayer.x;
-var target_y = oPlayer.y;
-var lerp_speed = 0.1;
 
 // Calculate desired camera position
 var desired_x = target_x - room_width / 2;

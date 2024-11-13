@@ -6,7 +6,6 @@ var closest_enemy = noone;  // Start with no closest enemy
 var min_distance = 999999;  // Start with a very large distance
 var cooldown_time = 0.1;
 global.time++;
-var range = 10;
     // Calculate the angle between the player and the enemy object
 	
 for (var i = 0; i < array_length(enemy_objects); i++) {
@@ -15,7 +14,7 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
         var dist = point_distance(x, y, other.x, other.y);
 		show_debug_message(dist)
         // Check if this enemy is closer than the current closest
-        if (dist <= range) {
+        if (dist <= oPlayer.range) {
             min_distance = dist;  // Update the minimum distance
             closest_enemy = id;   // Update the closest enemy reference (store the instance ID)
 			if (closest_enemy != noone) {
@@ -30,14 +29,34 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
     var angle_diff = abs(direction - angle_to_enemy);
     if (angle_diff > 180) angle_diff = 360 - angle_diff; // Ensure the angle difference is within 180 degrees
     // Check if we're within range and if the mouse button is pressed
-    if (min_distance <= range && mouse_check_button_pressed(mb_left)) {
+    if (min_distance <= oPlayer.range && mouse_check_button_pressed(mb_left)) {
             // Check if we're aligned with the enemy (within 45 degrees)
             if (angle_diff < 90 || angle_diff > 270) {
 				
 				        if (global.time - global.last_action_time >= cooldown_time) {
                 // Apply damage to the closest enemy
+				var knockback_strength = oPlayer.knockback;
                 enemy_instance.demonHealth -= oPlayer.damage + oPlayer.blood;  // Apply damage to the instance
 				 global.last_action_time = global.time;
+				 if (knockback_strength > 0) {
+    knockback_x = lengthdir_x(knockback_strength, direction);
+    knockback_y = lengthdir_y(knockback_strength, direction);
+
+    if (!place_meeting(x + knockback_x, y, oWall)) {
+        x += knockback_x;
+    } else {
+        knockback_x = 0;
+    }
+
+    if (!place_meeting(x, y + knockback_y, oWall)) {
+        y += knockback_y;
+    } else {
+        knockback_y = 0;
+    }
+
+    knockback_strength *= 0.9;  // Slowly reduce the knockback strength over time
+}
+
 				 if (demonHealth <= 0){
 oPlayer.experience += meleeExp[i]
 show_debug_message(oPlayer.experience)
