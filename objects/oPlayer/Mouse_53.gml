@@ -34,11 +34,11 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
             if (angle_diff < 90 || angle_diff > 270) {
 				
 				        if (global.time - global.last_action_time >= cooldown_time) {
-                // Apply damage to the closest enemy
 				var knockback_strength = oPlayer.knockback;
                 enemy_instance.demonHealth -= oPlayer.damage + oPlayer.blood;  // Apply damage to the instance
 				 global.last_action_time = global.time;
-				 if (knockback_strength > 0) {
+				 //kb start
+				 while (knockback_strength > 0) {
     knockback_x = lengthdir_x(knockback_strength, direction);
     knockback_y = lengthdir_y(knockback_strength, direction);
 
@@ -56,6 +56,7 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
 
     knockback_strength *= 0.9;  // Slowly reduce the knockback strength over time
 }
+//kb end
 
 				 if (demonHealth <= 0){
 oPlayer.experience += meleeExp[i]

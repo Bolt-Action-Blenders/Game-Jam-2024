@@ -35,7 +35,7 @@ cooldown_time = 1;
 experience = 0;
 previous = 0
 range = 10;
-knockback = range / 2;
+knockback = range * 2;
 knockback_strength = knockback;
 
 //items
