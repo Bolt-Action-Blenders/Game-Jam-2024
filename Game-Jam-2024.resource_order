@@ -18,6 +18,7 @@
     {"name":"oFire","order":4,"path":"objects/oFire/oFire.yy",},
     {"name":"oShitDemon","order":6,"path":"objects/oShitDemon/oShitDemon.yy",},
     {"name":"oShitToilet","order":5,"path":"objects/oShitToilet/oShitToilet.yy",},
+    {"name":"oShotgun","order":5,"path":"objects/oShotgun/oShotgun.yy",},
     {"name":"oSpiderFilth","order":3,"path":"objects/oSpiderFilth/oSpiderFilth.yy",},
     {"name":"oStalker","order":1,"path":"objects/oStalker/oStalker.yy",},
     {"name":"oSummoner","order":4,"path":"objects/oSummoner/oSummoner.yy",},

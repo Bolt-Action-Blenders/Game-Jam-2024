@@ -4,7 +4,8 @@ range = 10;
 v_speed = 0;
 h_speed = 0;
 last_action_time = 0;
-<<<<<<<<< Temporary merge branch 1
+
 knockback_strength = 0;
 timer = 0;
 
+//xaszxcrtyjm

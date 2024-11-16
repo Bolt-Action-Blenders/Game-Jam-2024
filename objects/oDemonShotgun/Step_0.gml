@@ -42,3 +42,13 @@ if (distance_to_object(oPlayer) < range){
 x += sign(player_x - x) * h_speed * -1
 y += sign(player_y - x) * v_speed * -1
 }
+timer++
+if timer >= 50{
+	global.pointS = point_direction(x,y,oPlayer.x,oPlayer.y)-15
+instance_create_layer(x,y,"instances",oShotgun)
+	global.pointS = point_direction(x,y,oPlayer.x,oPlayer.y)+15
+instance_create_layer(x,y,"instances",oShotgun)
+	global.pointS = point_direction(x,y,oPlayer.x,oPlayer.y)
+instance_create_layer(x,y,"instances",oShotgun)
+timer = 0
+}
