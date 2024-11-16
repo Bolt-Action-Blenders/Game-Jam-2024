@@ -12,6 +12,7 @@ var player_y = oPlayer.y;
     var knockback_x = lengthdir_x(knockback_strength, oPlayer.direction);
     var knockback_y = lengthdir_y(knockback_strength, oPlayer.direction);
 
+
     // Check for wall collisions and move accordingly
     if (!place_meeting(x + knockback_x, y, oWall)) {
         x += knockback_x; // Move horizontally
@@ -42,7 +43,7 @@ if (distance_to_object(oPlayer) < range){
 x += sign(player_x - x) * h_speed * -1
 y += sign(player_y - x) * v_speed * -1
 }
-*/
+
 timer++
 if timer >= 50{
 instance_create_layer(x,y,"instances",oBullet)
