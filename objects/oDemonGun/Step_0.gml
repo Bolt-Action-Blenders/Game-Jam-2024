@@ -42,3 +42,9 @@ if (distance_to_object(oPlayer) < range){
 x += sign(player_x - x) * h_speed * -1
 y += sign(player_y - x) * v_speed * -1
 }
+*/
+timer++
+if timer >= 50{
+instance_create_layer(x,y,"instances",oBullet)
+timer = 0
+}
