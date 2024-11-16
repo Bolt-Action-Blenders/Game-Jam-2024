@@ -7,7 +7,7 @@ var player_x = oPlayer.x;
 var player_y = oPlayer.y;
 if (demonHealth > fullhealth / 2){
 // Player's position
-move_towards_point(player_x, player_y, walksp);
+move_towards_point(player_x, player_y, walkspeed);
 
     var demon_cooldown_time = 5; 
     if (global.time - last_action_time >= demon_cooldown_time) {

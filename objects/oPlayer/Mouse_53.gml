@@ -34,30 +34,9 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
             if (angle_diff < 90 || angle_diff > 270) {
 				
 				        if (global.time - global.last_action_time >= cooldown_time) {
-				var knockback_strength = oPlayer.knockback;
                 enemy_instance.demonHealth -= oPlayer.damage + oPlayer.blood;  // Apply damage to the instance
 				 global.last_action_time = global.time;
-				 //kb start
-				 while (knockback_strength > 0) {
-    knockback_x = lengthdir_x(knockback_strength, direction);
-    knockback_y = lengthdir_y(knockback_strength, direction);
-
-    if (!place_meeting(x + knockback_x, y, oWall)) {
-        x += knockback_x;
-    } else {
-        knockback_x = 0;
-    }
-
-    if (!place_meeting(x, y + knockback_y, oWall)) {
-        y += knockback_y;
-    } else {
-        knockback_y = 0;
-    }
-
-    knockback_strength *= 0.9;  // Slowly reduce the knockback strength over time
-}
-//kb end
-
+				enemy_instance.knockback_strength = oPlayer.knockback;
 				 if (demonHealth <= 0){
 oPlayer.experience += meleeExp[i]
 show_debug_message(oPlayer.experience)
