@@ -1,43 +1,39 @@
+// Check if the enemy's health is less than or equal to 0, and destroy the instance if so
 if (demonHealth <= 0) {
     instance_destroy(); // Destroy this instance of the enemy
     return; // Exit the current logic since the enemy is destroyed
 }
 
+// Player's position
 var player_x = oPlayer.x;
 var player_y = oPlayer.y;
-if (demonHealth > fullhealth / 2){
-// Player's position
-move_towards_point(player_x, player_y, walksp);
 
-    var demon_cooldown_time = 5; 
-    if (global.time - last_action_time >= demon_cooldown_time) {
-        last_action_time = global.time;
-		instance_create_depth(x, y, 0, oDemonGun);
+if (!distance_to_object(oPlayer) <= 1) {
+move_towards_point(player_x, player_y, walksp); }
+
+
+    // Calculate current knockback velocity
+    var knockback_x = lengthdir_x(knockback_strength, oPlayer.direction);
+    var knockback_y = lengthdir_y(knockback_strength, oPlayer.direction);
+
+    // Check for wall collisions and move accordingly
+    if (!place_meeting(x + knockback_x, y, oWall)) {
+        x += knockback_x; // Move horizontally
+    } else {
+        knockback_x = 0; // Stop horizontal movement if colliding
     }
 
-}
-if (demonHealth <= fullhealth / 2){
-if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)) {
-	v_speed = 0;
-	
-
-}
-if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)) {
-	h_speed = 0;
-}
-
-if (distance_to_object(oPlayer) > range){
-x += sign(player_x - x) * h_speed
-y += sign(player_y - x) * v_speed
-}
-if (distance_to_object(oPlayer) < range){
-x += sign(player_x - x) * h_speed * -1
-y += sign(player_y - x) * v_speed * -1
-}
-    var demon_cooldown_time = 5; 
-    if (global.time - last_action_time >= demon_cooldown_time) {
-        last_action_time = global.time;
-		instance_create_depth(x, y, 0, oDemonRegular);
+    if (!place_meeting(x, y + knockback_y, oWall)) {
+        y += knockback_y; // Move vertically
+    } else {
+        knockback_y = 0; // Stop vertical movement if colliding
     }
-}
 
+    // Reduce knockback strength over time
+    knockback_strength *= oPlayer.knockback_decay;
+
+    // Stop knockback when strength is negligible
+    if (knockback_strength < 0.5) {
+        knockback_active = false; // End knockback
+        knockback_strength = 0;   // Reset strength
+    }

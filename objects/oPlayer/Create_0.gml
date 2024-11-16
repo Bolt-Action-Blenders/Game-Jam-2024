@@ -34,6 +34,10 @@ max_stamina = baseStamina;
 cooldown_time = 1;
 experience = 0;
 previous = 0
+range = 10;
+knockback = range * 1.5;
+knockback_decay = 0.9;
+
 //items
 lysol = false;
 bucket = true;
