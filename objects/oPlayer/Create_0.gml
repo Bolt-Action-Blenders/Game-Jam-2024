@@ -12,7 +12,8 @@ rangedBaseDamage = [0.1, 2, 4, 5]
 
 last_action_time = 0;
 global.last_action_time = 0;
-is_poisoned = false;          
+is_poisoned = false;
+poison_hits = 0;
 move_speed = 4;         
 max_speed = 8;                   
 stamina_drain_rate = 1;     

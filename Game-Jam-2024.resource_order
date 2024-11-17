@@ -16,6 +16,10 @@
     {"name":"oDemonRobot","order":7,"path":"objects/oDemonRobot/oDemonRobot.yy",},
     {"name":"oDemonScout","order":5,"path":"objects/oDemonScout/oDemonScout.yy",},
     {"name":"oFire","order":4,"path":"objects/oFire/oFire.yy",},
+    {"name":"oFloor","order":3,"path":"objects/oFloor/oFloor.yy",},
+    {"name":"oFwoosh","order":7,"path":"objects/oFwoosh/oFwoosh.yy",},
+    {"name":"oGrenade","order":6,"path":"objects/oGrenade/oGrenade.yy",},
+    {"name":"oHide","order":2,"path":"objects/oHide/oHide.yy",},
     {"name":"oShitDemon","order":6,"path":"objects/oShitDemon/oShitDemon.yy",},
     {"name":"oShitToilet","order":5,"path":"objects/oShitToilet/oShitToilet.yy",},
     {"name":"oShotgun","order":5,"path":"objects/oShotgun/oShotgun.yy",},
@@ -23,5 +27,6 @@
     {"name":"oStalker","order":1,"path":"objects/oStalker/oStalker.yy",},
     {"name":"oSummoner","order":4,"path":"objects/oSummoner/oSummoner.yy",},
     {"name":"sFire","order":1,"path":"sprites/sFire/sFire.yy",},
+    {"name":"sHide","order":2,"path":"sprites/sHide/sHide.yy",},
   ],
 }

@@ -59,6 +59,10 @@ if (place_meeting(x, y, oTrap)) {
 		 last_action_time = global.time;
     health -= 10;
 	}}
+	if (place_meeting(x, y, oBullet)) {
+		 show_debug_message("thhe pain is imesurable")
+    health -= 10;
+	}
 	if (h_speed > max_speed){
 	h_speed = max_speed
 	}
@@ -73,7 +77,7 @@ if (place_meeting(x, y, oTrap)) {
 
 //Poison stuff
 var poison_damage = 3;
-var poison_hits = 0;
+
 	// Check if the player or object is poisoned
 if (is_poisoned) {
 if (poison_hits <= 3){
@@ -82,6 +86,7 @@ if (poison_hits <= 3){
        health -= poison_damage;
         global.last_action_time = current_time;
 		poison_hits++;
+		show_debug_message("it burns spare me pls")
     }
 } else {
 poison_hits = 0;

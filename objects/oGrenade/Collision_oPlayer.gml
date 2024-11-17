@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-timer = 0
-speed = 5
-direction = global.point
+instance_create_layer(x,y,"instances",oFwoosh)
+
+instance_destroy()

@@ -43,6 +43,7 @@ x += sign(player_x - x) * h_speed * -1
 y += sign(player_y - x) * v_speed * -1
 }
 timer++
+if distance_to_object(oPlayer)<= 200{
 if timer >= 5{
 	global.point = point_direction(x,y,oPlayer.x,oPlayer.y)-15
 instance_create_layer(x,y,"instances",oFire)
@@ -51,4 +52,4 @@ instance_create_layer(x,y,"instances",oFire)
 	global.point = point_direction(x,y,oPlayer.x,oPlayer.y)
 instance_create_layer(x,y,"instances",oFire)
 timer = 0
-}
+}}
