@@ -1,4 +1,5 @@
 var nextLevel = 100 + 10*level;
+show_debug_message(health)
 if (experience >= nextLevel){
 level++
 experience -= nextLevel;
@@ -75,18 +76,36 @@ if (place_meeting(x, y, oTrap)) {
 	y += v_speed;
 
 
+//burning stuff
+var burning_damage = 3;
+
+	// Check if the player or object is burninged
+if (is_burning) {
+if (burning_hits <= 5){
+	    var burning_cooldown = 3; // Set the cooldown time (in frames)
+    if (global.time - burning_last_time >= burning_cooldown) {
+       health -= rangedBaseDamage[2];
+        burning_last_time = global.time;
+		burning_hits++;
+		show_debug_message("it burns spare me pls")
+    }
+} else {
+burning_hits = 0;
+is_burning = false;
+}
+}
 //Poison stuff
 var poison_damage = 3;
 
 	// Check if the player or object is poisoned
 if (is_poisoned) {
 if (poison_hits <= 3){
-	    var poison_cooldown = 3 * fps; // Set the cooldown time (in frames)
-    if (current_time - global.last_action_time >= poison_cooldown) {
-       health -= poison_damage;
-        global.last_action_time = current_time;
+	    var poison_cooldown = 3; // Set the cooldown time (in frames)
+    if (global.time - poison_last_time >= global.time) {
+       health -= poison_damage
+        poison_last_time = current_time;
 		poison_hits++;
-		show_debug_message("it burns spare me pls")
+		show_debug_message("it poisons spare me pls")
     }
 } else {
 poison_hits = 0;
