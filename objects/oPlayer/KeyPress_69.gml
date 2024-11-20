@@ -36,6 +36,7 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
                 // Apply damage to the closest enemy
                 enemy_instance.demonHealth -= oPlayer.damage + oPlayer.blood;  // Apply damage to the instance
 				 global.last_action_time = global.time;
+				 				enemy_instance.knockback_strength = oPlayer.knockback * 2;
 				 if (demonHealth <= 0){
 oPlayer.experience += meleeExp[i]
 show_debug_message(oPlayer.experience)

@@ -1,5 +1,5 @@
 if (place_meeting(x, y, oSoap)) {
-health += 60;
+Playerhealth += 60;
         with (instance_place( x, y, oSoap)) {
             instance_destroy();
         }

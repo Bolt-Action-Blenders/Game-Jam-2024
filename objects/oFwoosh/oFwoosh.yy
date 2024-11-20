@@ -9,8 +9,8 @@
   "name":"oFwoosh",
   "overriddenProperties":[],
   "parent":{
-    "name":"Demons",
-    "path":"folders/Objects/Demons.yy",
+    "name":"group1",
+    "path":"folders/Objects/Demons/group1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

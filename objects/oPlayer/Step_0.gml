@@ -1,5 +1,6 @@
 var nextLevel = 100 + 10*level;
-show_debug_message(health)
+global.time += 1/fps
+show_debug_message(Playerhealth)
 if (experience >= nextLevel){
 level++
 experience -= nextLevel;
@@ -9,28 +10,30 @@ stamina *= 1.5
 }
 direction = point_direction(x, y, mouse_x, mouse_y);
 var last_action_time = 0;
-// Horizontal movement (left and right)
-if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
-    h_speed = -move_speed;
-
-} else if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
-    h_speed = move_speed;
-
-} else {
-    h_speed = 0;
-}
 
 // Vertical movement (up and down)
 if (keyboard_check(vk_up) || keyboard_check(ord("W"))){
     v_speed = -move_speed;
-
+	sprite_index = playerBackward
 } else if (keyboard_check(vk_down) || keyboard_check(ord("S"))){
     v_speed = move_speed
-
+	sprite_index = playerForward
 } else {
     v_speed = 0;
 }
-	
+	// Horizontal movement (left and right)
+if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
+    h_speed = -move_speed;
+	sprite_index = playerLeft
+} else if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
+    h_speed = move_speed;
+	sprite_index = playerRight
+} else {
+    h_speed = 0;
+}
+if (h_speed = 0 && v_speed = 0){
+	sprite_index = playerIdle
+}
 // Sprint with shift key (only if stamina allows)
 if (keyboard_check(vk_shift) && stamina > 0) {
     sprinting = true;  // Player is sprinting
@@ -80,18 +83,22 @@ if (place_meeting(x, y, oTrap)) {
 var burning_damage = 3;
 
 	// Check if the player or object is burninged
+
+
 if (is_burning) {
-if (burning_hits <= 5){
-	    var burning_cooldown = 3; // Set the cooldown time (in frames)
+if (burning_hits >= 0 && burning_hits <= 5 ){
+	    var burning_cooldown = 3;
+
     if (global.time - burning_last_time >= burning_cooldown) {
-       health -= rangedBaseDamage[2];
+				burning_hits++;
+       Playerhealth -= rangedBaseDamage[2];
         burning_last_time = global.time;
-		burning_hits++;
 		show_debug_message("it burns spare me pls")
+		show_debug_message(Playerhealth)
     }
 } else {
-burning_hits = 0;
 is_burning = false;
+burning_hits = 0;
 }
 }
 //Poison stuff
@@ -102,8 +109,8 @@ if (is_poisoned) {
 if (poison_hits <= 3){
 	    var poison_cooldown = 3; // Set the cooldown time (in frames)
     if (global.time - poison_last_time >= global.time) {
-       health -= poison_damage
-        poison_last_time = current_time;
+       Playerhealth -= poison_damage
+        poison_last_time = global.time;
 		poison_hits++;
 		show_debug_message("it poisons spare me pls")
     }
