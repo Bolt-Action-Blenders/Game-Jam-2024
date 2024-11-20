@@ -76,6 +76,7 @@
     {"id":{"name":"Oposter_image","path":"objects/Oposter_image/Oposter_image.yy",},},
     {"id":{"name":"Oposter","path":"objects/Oposter/Oposter.yy",},},
     {"id":{"name":"oRoomcheck","path":"objects/oRoomcheck/oRoomcheck.yy",},},
+    {"id":{"name":"oRoomCheckTop","path":"objects/oRoomCheckTop/oRoomCheckTop.yy",},},
     {"id":{"name":"Oscreenshake","path":"objects/Oscreenshake/Oscreenshake.yy",},},
     {"id":{"name":"Oscreenthing","path":"objects/Oscreenthing/Oscreenthing.yy",},},
     {"id":{"name":"oShitDemon","path":"objects/oShitDemon/oShitDemon.yy",},},
