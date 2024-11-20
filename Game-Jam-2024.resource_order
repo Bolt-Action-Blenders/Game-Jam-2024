@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
-    {"name":"Projectiles","order":8,"path":"folders/Objects/Demons/Projectiles.yy",},
     {"name":"Miscellaneous","order":1,"path":"folders/Objects/Demons/Miscellaneous.yy",},
+    {"name":"Projectiles","order":8,"path":"folders/Objects/Demons/Projectiles.yy",},
     {"name":"RangedDemons","order":2,"path":"folders/Objects/Demons/RangedDemons.yy",},
     {"name":"Demons","order":3,"path":"folders/Sprites/Demons.yy",},
     {"name":"Elemenemenemenets","order":6,"path":"folders/Sprites/Elemenemenemenets.yy",},
