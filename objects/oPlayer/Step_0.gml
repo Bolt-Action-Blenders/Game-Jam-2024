@@ -46,11 +46,11 @@ if (!sprinting && stamina < max_stamina) {
     stamina = min(stamina, max_stamina);  // Ensure stamina does not exceed max
 }
 
-if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)) {
+if (place_meeting(x, y + v_speed, oWall) || place_meeting(x, y + v_speed, oLockedDoor)|| place_meeting(x, y + v_speed,Overyscarypitofsadnessanddispair)) {
 	v_speed = 0;
 
 }
-if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)) {
+if (place_meeting( x + h_speed, y, oWall) || place_meeting(x + h_speed, y, oLockedDoor)|| place_meeting(x + h_speed, y,Overyscarypitofsadnessanddispair)) {
 	h_speed = 0;
 }
 
