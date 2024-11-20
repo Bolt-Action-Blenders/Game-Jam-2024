@@ -10,8 +10,8 @@
   "name":"oGrenade",
   "overriddenProperties":[],
   "parent":{
-    "name":"group1",
-    "path":"folders/Objects/Demons/group1.yy",
+    "name":"Projectiles",
+    "path":"folders/Objects/Demons/Projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
