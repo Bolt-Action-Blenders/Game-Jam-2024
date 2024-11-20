@@ -21,6 +21,7 @@
     {"name":"oGrenade","order":6,"path":"objects/oGrenade/oGrenade.yy",},
     {"name":"oHide","order":2,"path":"objects/oHide/oHide.yy",},
     {"name":"oRoomcheck","order":4,"path":"objects/oRoomcheck/oRoomcheck.yy",},
+    {"name":"oRoomCheckTop","order":5,"path":"objects/oRoomCheckTop/oRoomCheckTop.yy",},
     {"name":"oShitDemon","order":6,"path":"objects/oShitDemon/oShitDemon.yy",},
     {"name":"oShitToilet","order":5,"path":"objects/oShitToilet/oShitToilet.yy",},
     {"name":"oShotgun","order":5,"path":"objects/oShotgun/oShotgun.yy",},
