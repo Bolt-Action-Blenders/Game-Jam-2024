@@ -7,6 +7,6 @@ if (mouse_x >= x - sprite_width  && mouse_x <= x + sprite_width  &&
     if (mouse_check_button_pressed(mb_left)) {
         // Action when object is clicked
 		show_debug_message("clicked")
-       room = Room1_1
+       room = Room1_2
     }
 }
