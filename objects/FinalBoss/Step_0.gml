@@ -37,3 +37,10 @@ move_towards_point(player_x, player_y, walksp); }
         knockback_active = false; // End knockback
         knockback_strength = 0;   // Reset strength
     }
+	timer++
+if timer >= 50{
+  if demonHealth = 50*(level*1.1){
+instance_create_layer(x,y,"instances",oGrenade)
+timer = 0
+   }
+  }
