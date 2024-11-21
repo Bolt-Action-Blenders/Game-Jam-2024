@@ -10,8 +10,8 @@
   "name":"oShotgun",
   "overriddenProperties":[],
   "parent":{
-    "name":"Demons",
-    "path":"folders/Objects/Demons.yy",
+    "name":"Projectiles",
+    "path":"folders/Objects/Demons/Projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sStalker",
+    "path":"sprites/sStalker/sStalker.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
