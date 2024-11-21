@@ -14,7 +14,7 @@
   "name":"Roomh1",
   "parent":{
     "name":"hiden rooms",
-    "path":"folders/Paths/Rooms/hiden rooms.yy",
+    "path":"folders/Rooms/hiden rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
