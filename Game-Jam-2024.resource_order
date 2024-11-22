@@ -1,9 +1,5 @@
 {
   "FolderOrderSettings":[
-    {"name":"Extensions","order":1,"path":"folders/Extensions.yy",},
-    {"name":"Fonts","order":2,"path":"folders/Fonts.yy",},
-    {"name":"Notes","order":3,"path":"folders/Notes.yy",},
-    {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"Miscellaneous","order":1,"path":"folders/Objects/Demons/Miscellaneous.yy",},
     {"name":"Projectiles","order":8,"path":"folders/Objects/Demons/Projectiles.yy",},
     {"name":"RangedDemons","order":2,"path":"folders/Objects/Demons/RangedDemons.yy",},
@@ -21,8 +17,6 @@
     {"name":"Blood","order":1,"path":"folders/Sprites/Elemenemenemenets/Blood.yy",},
     {"name":"Items","order":7,"path":"folders/Sprites/Items.yy",},
     {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
-    {"name":"Tile Sets","order":12,"path":"folders/Tile Sets.yy",},
-    {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"FinalBoss","order":3,"path":"objects/FinalBoss/FinalBoss.yy",},
@@ -40,6 +34,7 @@
     {"name":"oFloor","order":3,"path":"objects/oFloor/oFloor.yy",},
     {"name":"oFwoosh","order":4,"path":"objects/oFwoosh/oFwoosh.yy",},
     {"name":"oGrenade","order":2,"path":"objects/oGrenade/oGrenade.yy",},
+    {"name":"oHealth","order":4,"path":"objects/oHealth/oHealth.yy",},
     {"name":"oHide","order":2,"path":"objects/oHide/oHide.yy",},
     {"name":"oShitDemon","order":6,"path":"objects/oShitDemon/oShitDemon.yy",},
     {"name":"oShitToilet","order":5,"path":"objects/oShitToilet/oShitToilet.yy",},
@@ -65,6 +60,7 @@
     {"name":"sMop","order":2,"path":"sprites/sMop/sMop.yy",},
     {"name":"Spantsshitinglscary","order":1,"path":"sprites/Spantsshitinglscary/Spantsshitinglscary.yy",},
     {"name":"sPlayerHitbox","order":10,"path":"sprites/sPlayerHitbox/sPlayerHitbox.yy",},
+    {"name":"Sprite27","order":8,"path":"sprites/Sprite27/Sprite27.yy",},
     {"name":"sShitDemon","order":3,"path":"sprites/sShitDemon/sShitDemon.yy",},
     {"name":"sSoap","order":3,"path":"sprites/sSoap/sSoap.yy",},
     {"name":"sSpider","order":5,"path":"sprites/sSpider/sSpider.yy",},
