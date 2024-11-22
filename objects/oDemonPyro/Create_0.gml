@@ -1,8 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-demonHealth = 1 * (oPlayer.level * 1.1);
->>>>>>> parent of 5af0c5e ( fuck fuck fuck fuck fucck)
 =======
 demonHealth = 1 * (oPlayer.level * 1.1);
 >>>>>>> parent of 5af0c5e ( fuck fuck fuck fuck fucck)
