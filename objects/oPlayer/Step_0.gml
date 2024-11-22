@@ -9,9 +9,13 @@ Playerhealth = baseHealth
 damage *= 1.5;
 stamina *= 1.5
 }
-if (Playerhealth <= 0){
-room_goto(Checkpoint)
+if oPlayer.Playerhealth <= 0 {
+	x = global.revive[0]
+	y = global.revive[1]
+instance_create_layer(x,y,"instances",object_index)
+instance_destroy()
 }
+
 direction = point_direction(x, y, mouse_x, mouse_y);
 var last_action_time = 0;
 

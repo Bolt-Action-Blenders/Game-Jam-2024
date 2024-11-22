@@ -54,6 +54,7 @@
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"obutton","path":"objects/obutton/obutton.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
+    {"id":{"name":"oCheckpoint","path":"objects/oCheckpoint/oCheckpoint.yy",},},
     {"id":{"name":"oCheese","path":"objects/oCheese/oCheese.yy",},},
     {"id":{"name":"oDemonDemo","path":"objects/oDemonDemo/oDemonDemo.yy",},},
     {"id":{"name":"oDemonFast","path":"objects/oDemonFast/oDemonFast.yy",},},

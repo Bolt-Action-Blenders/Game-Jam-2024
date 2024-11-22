@@ -1,6 +1,6 @@
 game_set_speed(60, 60);
-image_xscale = 2; // Scale width to 2x
-image_yscale = 2; // Scale height to 2x
+image_xscale = 4; // Scale width to 2x
+image_yscale = 4; // Scale height to 2x
 
 meleeBaseDamage = [2, 10, 35, 2, 20, 25, 9, 1, 1];
 //ype = {"Regular", "Shit", "Juggernaut", "Fast", "Scout", "Heavy", "Robot", "Worker", "Spiderfilth"};
@@ -17,6 +17,7 @@ global.last_action_time = 0;
 is_poisoned = false;
 is_burning = false;
 global.time = 1;
+global.revive = [160,160]
 poison_hits = 0;
 burning_hits = 0;
 poison_last_time = 0;
@@ -28,7 +29,7 @@ stamina_regen_rate = 0.5;
 h_speed = 0;            
 v_speed = 0;               
 sprinting = false;          
-baseHealth = 100;
+baseHealth = 10;
 baseStamina = 100;
 baseDamage = 7;
 blood = 0;

@@ -27,6 +27,7 @@
   "ResourceOrderSettings":[
     {"name":"FinalBoss","order":3,"path":"objects/FinalBoss/FinalBoss.yy",},
     {"name":"oCamera","order":1,"path":"objects/oCamera/oCamera.yy",},
+    {"name":"oCheckpoint","order":1,"path":"objects/oCheckpoint/oCheckpoint.yy",},
     {"name":"oCheese","order":1,"path":"objects/oCheese/oCheese.yy",},
     {"name":"oDemonDemo","order":2,"path":"objects/oDemonDemo/oDemonDemo.yy",},
     {"name":"oDemonFast","order":2,"path":"objects/oDemonFast/oDemonFast.yy",},
