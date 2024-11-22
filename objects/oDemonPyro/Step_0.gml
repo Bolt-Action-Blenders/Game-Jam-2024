@@ -1,5 +1,5 @@
 // Check if the enemy's health is less than or equal to 0, and destroy the instance if so
-if (demonHealth <= 0) {
+if (self.demonHealth <= 0) {
     instance_destroy(); // Destroy this instance of the enemy
     return; // Exit the current logic since the enemy is destroyed
 }
