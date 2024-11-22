@@ -50,8 +50,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"playerIdle",
+    "path":"sprites/playerIdle/playerIdle.yy",
   },
   "spriteMaskId":{
     "name":"sPlayerHitbox",

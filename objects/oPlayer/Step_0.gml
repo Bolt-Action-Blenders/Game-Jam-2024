@@ -4,9 +4,13 @@ show_debug_message(Playerhealth)
 if (experience >= nextLevel){
 level++
 experience -= nextLevel;
-health *= 1.5;
+basehealth *= 1.5;
+Playerhealth = baseHealth
 damage *= 1.5;
 stamina *= 1.5
+}
+if (Playerhealth <= 0){
+room_goto(Checkpoint)
 }
 direction = point_direction(x, y, mouse_x, mouse_y);
 var last_action_time = 0;

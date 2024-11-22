@@ -1,4 +1,6 @@
 game_set_speed(60, 60);
+image_xscale = 2; // Scale width to 2x
+image_yscale = 2; // Scale height to 2x
 
 meleeBaseDamage = [2, 10, 35, 2, 20, 25, 9, 1, 1];
 //ype = {"Regular", "Shit", "Juggernaut", "Fast", "Scout", "Heavy", "Robot", "Worker", "Spiderfilth"};
