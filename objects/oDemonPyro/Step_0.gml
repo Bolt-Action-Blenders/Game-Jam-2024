@@ -1,6 +1,10 @@
 // Check if the enemy's health is less than or equal to 0, and destroy the instance if so
+
 demonHealth = 1;
 if (demonHealth <= 0) {
+
+if (self.demonHealth <= 0) {
+
     instance_destroy(); // Destroy this instance of the enemy
     return; // Exit the current logic since the enemy is destroyed
 }
@@ -53,4 +57,4 @@ instance_create_layer(x,y,"instances",oFire)
 	global.point = point_direction(x,y,oPlayer.x,oPlayer.y)
 instance_create_layer(x,y,"instances",oFire)
 timer = 0
-}}
+}}}
