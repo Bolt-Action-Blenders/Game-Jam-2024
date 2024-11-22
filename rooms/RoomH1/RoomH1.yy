@@ -13,8 +13,8 @@
   ],
   "name":"Roomh1",
   "parent":{
-    "name":"Game-Jam-2024",
-    "path":"Game-Jam-2024.yyp",
+    "name":"hiden rooms",
+    "path":"folders/Paths/Rooms/hiden rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -20,6 +20,8 @@
   ],
   "name":"Floor1",
   "parent":{
+    "name":"Rooms",
+    "path":"folders/Paths/Rooms.yy",
     "name":"Floors",
     "path":"folders/Rooms/Floors.yy",
   },
