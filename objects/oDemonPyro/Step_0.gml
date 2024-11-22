@@ -1,4 +1,5 @@
 // Check if the enemy's health is less than or equal to 0, and destroy the instance if so
+demonHealth = 1;
 if (demonHealth <= 0) {
     instance_destroy(); // Destroy this instance of the enemy
     return; // Exit the current logic since the enemy is destroyed
@@ -9,8 +10,8 @@ var player_x = oPlayer.x;
 var player_y = oPlayer.y;
 
     // Calculate current knockback velocity
-    var knockback_x = lengthdir_x(knockback_strength, oPlayer.direction);
-    var knockback_y = lengthdir_y(knockback_strength, oPlayer.direction);
+    var knockback_x = lengthdir_x(0, oPlayer.direction);
+    var knockback_y = lengthdir_y(0, oPlayer.direction);
 
     // Check for wall collisions and move accordingly
     if (!place_meeting(x + knockback_x, y, oWall)) {

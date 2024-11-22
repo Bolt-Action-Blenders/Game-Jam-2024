@@ -194,8 +194,8 @@
   ],
   "name":"Room1_1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Paths/Rooms.yy",
+    "name":"Game-Jam-2024",
+    "path":"Game-Jam-2024.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{
