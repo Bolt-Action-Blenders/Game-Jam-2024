@@ -52,4 +52,4 @@ instance_create_layer(x,y,"instances",oFire)
 	global.point = point_direction(x,y,oPlayer.x,oPlayer.y)
 instance_create_layer(x,y,"instances",oFire)
 timer = 0
-}}
+}}}
