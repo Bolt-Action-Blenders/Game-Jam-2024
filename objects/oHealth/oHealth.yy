@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oHide",
+  "%Name":"oHealth",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oHide",
+  "name":"oHealth",
   "overriddenProperties":[],
   "parent":{
-    "name":"Items",
-    "path":"folders/Objects/Items.yy",
+    "name":"Elements",
+    "path":"folders/Objects/Elements.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sHide",
-    "path":"sprites/sHide/sHide.yy",
+    "name":"sHealth",
+    "path":"sprites/sHealth/sHealth.yy",
   },
   "spriteMaskId":null,
   "visible":true,
