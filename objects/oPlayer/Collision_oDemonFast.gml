@@ -9,5 +9,6 @@ if (distance_to_object(oDemonFast) <= 3) {
 		Playerhealth -= level * meleeBaseDamage[demonID];
         // Update the last action time to the current global time
         last_action_time = global.time;
+		audio_play_sound(hurt, 1, false)
     }
 }

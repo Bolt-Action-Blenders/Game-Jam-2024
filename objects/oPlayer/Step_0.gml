@@ -102,7 +102,7 @@ if (burning_hits >= 0 && burning_hits <= 5 ){
        Playerhealth -= rangedBaseDamage[2];
         burning_last_time = global.time;
 		show_debug_message("it burns spare me pls")
-		show_debug_message(Playerhealth)
+		audio_play_sound(hurt, 1, false)
     }
 } else {
 is_burning = false;
@@ -121,6 +121,7 @@ if (poison_hits <= 3){
         poison_last_time = global.time;
 		poison_hits++;
 		show_debug_message("it poisons spare me pls")
+		audio_play_sound(hurt, 1, false)
     }
 } else {
 poison_hits = 0;

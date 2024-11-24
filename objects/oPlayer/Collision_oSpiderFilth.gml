@@ -12,5 +12,6 @@ if (distance_to_object(oDemonRegular) <= 3) {
         // Update the last action time to the current global time
 		is_poisoned = true;
         last_action_time = global.time;
+		audio_play_sound(hurt, 1, false)
     }
 }

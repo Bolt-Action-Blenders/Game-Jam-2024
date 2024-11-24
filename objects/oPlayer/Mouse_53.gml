@@ -55,7 +55,7 @@ if (closest_enemy != noone) {
 
             // Update the last action time
             global.last_action_time = global.time;
-
+			 			audio_play_sound(mixkit_fast_sword_whoosh_2792, 1, false)
             // If the closest enemy's health is <= 0, grant experience and handle removal
 			i--
             if (closest_enemy.demonHealth <= 0) {
