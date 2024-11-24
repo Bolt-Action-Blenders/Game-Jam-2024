@@ -8,3 +8,4 @@ x = camera_get_view_x(cam)
 y = camera_get_view_y(cam)
 // Get the camera's position and size
 
+depth = 999999999999999999999999999999999999999999

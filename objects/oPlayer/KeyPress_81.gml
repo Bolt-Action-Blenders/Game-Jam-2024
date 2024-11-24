@@ -18,7 +18,6 @@ for (var i = 0; i < array_length(enemy_objects); i++) {
             closest_enemy = id;   // Update the closest enemy reference (store the instance ID)
 			if (closest_enemy != noone) {
     // Dereference the instance ID to access properties
-    var enemy_instance = closest_enemy;  // Use the instance ID to reference the enemy instance
     var enemy_x = enemy_instance.x;
     var enemy_y = enemy_instance.y;
 
