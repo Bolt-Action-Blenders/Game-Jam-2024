@@ -5,6 +5,15 @@ var enemy_objects = [oDemonRegular, oDemonFast, oDemonJuggernaut, oDemonRobot, o
 var closest_enemy = noone;  // Start with no closest enemy
 var min_distance = 999999;  // Start with a very large distance
 var cooldown_time = 10;
+// You can write your code in this editor
+i = 0
+if bucket = true{
+while (i != 360){
+instance_create_layer(x,y,"instances",oWater)
+
+}
+
+}
 global.time++;
     // Calculate the angle between the player and the enemy object
 for (var i = 0; i < array_length(enemy_objects); i++) {
