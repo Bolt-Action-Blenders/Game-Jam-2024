@@ -3,3 +3,4 @@
 timer = 0
 speed = 5
 direction = global.point
+depth = 10
