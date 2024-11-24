@@ -9,6 +9,9 @@ Playerhealth = baseHealth
 damage *= 1.5;
 stamina *= 1.5
 }
+if (oPlayer.Playerhealth > oPlayer.baseHealth){
+oPlayer.Playerhealth = oPlayer.baseHealth;
+}
 if oPlayer.Playerhealth <= 0 {
 	x = global.revive[0]
 	y = global.revive[1]
@@ -41,6 +44,11 @@ if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
 }
 if (h_speed = 0 && v_speed = 0){
 	sprite_index = playerIdle
+} else {
+if (!audio_is_playing(step)) {
+	audio_sound_pitch(step, 1.5);
+    audio_play_sound(step, 1, false); 
+}
 }
 // Sprint with shift key (only if stamina allows)
 if (keyboard_check(vk_shift) && stamina > 0) {

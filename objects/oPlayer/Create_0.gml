@@ -48,7 +48,7 @@ knockback = range;
 knockback_decay = 0.9;
 
 //items
-lysol = false;
+lysol = true;
 bucket = true;
 ammo = 0;
 keys = 0;
