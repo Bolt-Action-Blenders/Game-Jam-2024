@@ -10,7 +10,7 @@ meleeExp = [10, 10, 10, 10, 10, 10, 10, 10, 10];
 //Gun, Shotgun, Pyro, Demo
 rangedCooldownTimes = [1.5, 1.5, 0.1, 2]
 ranges = [10, 3, 3, 5];
-rangedBaseDamage = [0.1, 2, 4, 5]
+rangedBaseDamage = [1, 2, 4, 5]
 
 last_action_time = 0;
 global.last_action_time = 0;
