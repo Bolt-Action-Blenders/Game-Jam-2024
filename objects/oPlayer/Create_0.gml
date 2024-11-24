@@ -44,7 +44,7 @@ cooldown_time = 1;
 experience = 0;
 previous = 0
 range = 50;
-knockback = range * 1.5;
+knockback = range;
 knockback_decay = 0.9;
 
 //items
