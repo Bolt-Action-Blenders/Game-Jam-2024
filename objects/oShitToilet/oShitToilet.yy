@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDemon",
-    "path":"sprites/sDemon/sDemon.yy",
+    "name":"sShitToilet",
+    "path":"sprites/sShitToilet/sShitToilet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

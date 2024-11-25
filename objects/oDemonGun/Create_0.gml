@@ -9,4 +9,6 @@ knockback_strength = 0;
 timer = 0;
 depth = 10
 
-//xaszxcrtyjm
+size = 0.2
+image_xscale = size;  
+image_yscale = size;  

@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sSoap",
+    "path":"sprites/sSoap/sSoap.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDemon",
-    "path":"sprites/sDemon/sDemon.yy",
+    "name":"sRegularDemon",
+    "path":"sprites/sRegularDemon/sRegularDemon.yy",
   },
   "spriteMaskId":null,
   "visible":true,
