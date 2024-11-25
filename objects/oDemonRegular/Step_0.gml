@@ -11,8 +11,7 @@ instance_destroy()
 var player_x = oPlayer.x;
 var player_y = oPlayer.y;
 
-if (!distance_to_object(oPlayer) <= 1) {
-move_towards_point(player_x, player_y, walksp); }
+move_towards_point(player_x, player_y, walksp); 
 
 
     // Calculate current knockback velocity
