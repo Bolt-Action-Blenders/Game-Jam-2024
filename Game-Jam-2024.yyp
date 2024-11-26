@@ -108,6 +108,7 @@
     {"id":{"name":"Floor5","path":"rooms/Floor5/Floor5.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"botw_item_pickup_made_with_Voicemod","path":"sounds/botw_item_pickup_made_with_Voicemod/botw_item_pickup_made_with_Voicemod.yy",},},
+    {"id":{"name":"flamethrower","path":"sounds/flamethrower/flamethrower.yy",},},
     {"id":{"name":"hurt","path":"sounds/hurt/hurt.yy",},},
     {"id":{"name":"medium_explosion_40472","path":"sounds/medium_explosion_40472/medium_explosion_40472.yy",},},
     {"id":{"name":"mixkit_fast_sword_whoosh_2792","path":"sounds/mixkit_fast_sword_whoosh_2792/mixkit_fast_sword_whoosh_2792.yy",},},

@@ -69,6 +69,7 @@
     {"name":"Floor4","order":4,"path":"rooms/Floor4/Floor4.yy",},
     {"name":"Floor5","order":3,"path":"rooms/Floor5/Floor5.yy",},
     {"name":"botw_item_pickup_made_with_Voicemod","order":8,"path":"sounds/botw_item_pickup_made_with_Voicemod/botw_item_pickup_made_with_Voicemod.yy",},
+    {"name":"flamethrower","order":11,"path":"sounds/flamethrower/flamethrower.yy",},
     {"name":"hurt","order":6,"path":"sounds/hurt/hurt.yy",},
     {"name":"medium_explosion_40472","order":10,"path":"sounds/medium_explosion_40472/medium_explosion_40472.yy",},
     {"name":"mixkit_fast_sword_whoosh_2792","order":4,"path":"sounds/mixkit_fast_sword_whoosh_2792/mixkit_fast_sword_whoosh_2792.yy",},
