@@ -1,4 +1,5 @@
-if timer >= 80{
+if timer >= 20{
 instance_destroy()
 
 }
+timer++

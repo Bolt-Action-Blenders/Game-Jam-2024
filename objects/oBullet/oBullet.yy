@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Projectiles",
-    "path":"folders/Objects/Demons/Projectiles.yy",
+    "path":"folders/Objects/Demons/RangedDemons/Projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

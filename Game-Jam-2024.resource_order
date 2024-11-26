@@ -5,7 +5,7 @@
     {"name":"Notes","order":3,"path":"folders/Notes.yy",},
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"Miscellaneous","order":1,"path":"folders/Objects/Demons/Miscellaneous.yy",},
-    {"name":"Projectiles","order":8,"path":"folders/Objects/Demons/Projectiles.yy",},
+    {"name":"Projectiles","order":4,"path":"folders/Objects/Demons/RangedDemons/Projectiles.yy",},
     {"name":"RangedDemons","order":2,"path":"folders/Objects/Demons/RangedDemons.yy",},
     {"name":"Particle Systems","order":5,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":6,"path":"folders/Paths.yy",},
