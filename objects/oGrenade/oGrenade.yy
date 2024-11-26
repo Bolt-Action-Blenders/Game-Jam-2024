@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
+    "name":"sGrenade",
+    "path":"sprites/sGrenade/sGrenade.yy",
   },
   "spriteMaskId":null,
   "visible":true,

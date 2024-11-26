@@ -46,7 +46,7 @@ if (h_speed = 0 && v_speed = 0){
 	sprite_index = playerIdle
 } else {
 if (!audio_is_playing(step)) {
-	audio_sound_pitch(step, 1.5);
+	audio_sound_pitch(step, 1.66);
     audio_play_sound(step, 1, false); 
 }
 }

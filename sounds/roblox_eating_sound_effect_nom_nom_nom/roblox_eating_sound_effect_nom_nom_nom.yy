@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"roblox_eating_sound_effect_nom_nom_nom",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.515102,
+  "name":"roblox_eating_sound_effect_nom_nom_nom",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"roblox_eating_sound_effect_nom_nom_nom.mp3",
+  "type":0,
+  "volume":1.0,
+}

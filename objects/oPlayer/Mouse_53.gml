@@ -64,6 +64,11 @@ if (closest_enemy != noone) {
             // If the closest enemy's health is <= 0, grant experience and handle removal
 			i--
             if (closest_enemy.demonHealth <= 0) {
+				killsSinceDrop++
+				if (killsSinceDrop >= dropCooldown){
+						instance_create_depth(enemy_x, enemy_y, 0, oCheese);
+						killsSinceDrop = 0;
+				}
 			oPlayer.experience += 15;
                 instance_destroy(closest_enemy);  // Destroy the defeated enemy
             }

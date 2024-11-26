@@ -29,7 +29,7 @@ stamina_regen_rate = 0.5;
 h_speed = 0;            
 v_speed = 0;               
 sprinting = false;          
-baseHealth = 30/(1+global.i);
+baseHealth = 100/(1+global.i);
 baseStamina = 100;
 baseDamage = 7;
 blood = 0;
@@ -46,6 +46,8 @@ previous = 0
 range = 50;
 knockback = range;
 knockback_decay = 0.9;
+killsSinceDrop = 0;
+dropCooldown = 3;
 
 //items
 lysol = true;
