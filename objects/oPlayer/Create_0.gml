@@ -11,7 +11,8 @@ meleeExp = [10, 10, 10, 10, 10, 10, 10, 10, 10];
 rangedCooldownTimes = [1.5, 1.5, 0.1, 2]
 ranges = [10, 3, 3, 5];
 rangedBaseDamage = [1, 2, 4, 5]
-
+lastBucket = 0
+lastthingy = 0
 last_action_time = 0;
 global.last_action_time = 0;
 is_poisoned = false;
