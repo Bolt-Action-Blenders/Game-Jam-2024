@@ -91,6 +91,7 @@
     {"name":"sCheese","order":1,"path":"sprites/sCheese/sCheese.yy",},
     {"name":"sDemo","order":15,"path":"sprites/sDemo/sDemo.yy",},
     {"name":"sEasy","order":13,"path":"sprites/sEasy/sEasy.yy",},
+    {"name":"sFinalBoss","order":18,"path":"sprites/sFinalBoss/sFinalBoss.yy",},
     {"name":"sFire","order":5,"path":"sprites/sFire/sFire.yy",},
     {"name":"Sfloor","order":2,"path":"sprites/Sfloor/Sfloor.yy",},
     {"name":"sGrenade","order":19,"path":"sprites/sGrenade/sGrenade.yy",},

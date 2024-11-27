@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sFinalBoss",
+    "path":"sprites/sFinalBoss/sFinalBoss.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

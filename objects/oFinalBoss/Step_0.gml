@@ -11,8 +11,9 @@ instance_destroy()
 var player_x = oPlayer.x;
 var player_y = oPlayer.y;
 
-if (!distance_to_object(oPlayer) <= 1) {
-move_towards_point(player_x, player_y, walksp); }
+if (demonHealth >= maxHealth / 2) {
+move_towards_point(player_x, player_y, walksp); } else {walksp = 0}
+show_debug_message(walksp)
 
 
     // Calculate current knockback velocity
@@ -40,3 +41,41 @@ move_towards_point(player_x, player_y, walksp); }
         knockback_active = false; // End knockback
         knockback_strength = 0;   // Reset strength
     }
+	
+	    var demon_cooldown_time = 3; 
+    if (global.time - last_action_time >= demon_cooldown_time) {
+        last_action_time = global.time;
+			if (demonHealth < maxHealth / 2){
+				var teleport = false;
+				while (!teleport){
+				x = oPlayer.x + (irandom_range(1,3) -2) * 100
+				y = oPlayer.y + (irandom_range(1, 3)-2) * 100
+				if (x != player_x && y != player_y && place_meeting(x, y, oFloor) && !place_meeting(x, y, oWall)){
+				teleport = true;
+				projID = irandom_range(1,3)
+				}
+				}
+				walksp = 0;
+				move_towards_point(x, y, 0)
+    }
+	}
+			    if (global.time - last_bullet_time >= demon_cooldown_time/3 && demonHealth < maxHealth / 2) {
+				last_bullet_time = global.time
+				if (projID = 3){
+					global.point = point_direction(x,y,oPlayer.x,oPlayer.y)-15
+instance_create_layer(x,y,"instances",oFire)
+	global.point = point_direction(x,y,oPlayer.x,oPlayer.y)+15
+instance_create_layer(x,y,"instances",oFire)
+	global.point = point_direction(x,y,oPlayer.x,oPlayer.y)
+instance_create_layer(x,y,"instances",oFire)
+audio_play_sound(flamethrower, 1, false)
+				}	if (projID = 1){
+						instance_create_depth(x,y, 1, oBullet)
+							instance_create_depth(x,y, 1, oBullet)
+				}
+				if (projID = 2){
+						instance_create_depth(x,y, 1, oGrenade)
+				}
+		walksp = 0;
+						move_towards_point(x, y, 0)
+			}

@@ -2,12 +2,12 @@ var nextLevel = 100 + 10*level;
 global.time += 1/fps
 show_debug_message(Playerhealth)
 if (experience >= nextLevel){
-level++
-experience -= nextLevel;
-basehealth *= 1.5;
-Playerhealth = baseHealth
-damage *= 1.5;
-stamina *= 1.5
+oPlayer.level++
+oPlayer.experience -= nextLevel;
+oPlayer.basehealth *= 1.5;
+oPlayer.Playerhealth = baseHealth
+oPlayer.damage *= 1.5;
+oPlayer.stamina *= 1.5
 }
 if (oPlayer.Playerhealth > oPlayer.baseHealth){
 oPlayer.Playerhealth = oPlayer.baseHealth;

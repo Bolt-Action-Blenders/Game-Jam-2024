@@ -1,9 +1,12 @@
-demonHealth = 100 * (oPlayer.level * 1.1);
-walksp = 10;
+walksp =5;
 last_action_time = 0;
+projID = 0
+last_bullet_time = 0;
 range = 4;
 v_speed = 0;
 h_speed = 0;
 last_action_time = 0;
 knockback_strength = 0;
 depth = 10
+demonHealth = 100;
+maxHealth = demonHealth;
