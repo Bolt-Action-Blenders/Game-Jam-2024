@@ -3,7 +3,7 @@
 if bucket = true && global.time-lastthingy>=1 {
 	
 	i = 0
-for( i =0;i!=360;i++){
+for( i =0;i!=360;i+=20){
 instance_create_layer(x,y,"instances",oWater)
 
 }

@@ -302,6 +302,7 @@
     {"name":"inst_77C83957","path":"rooms/Floor3/Floor3.yy",},
     {"name":"inst_45102F37","path":"rooms/Floor3/Floor3.yy",},
     {"name":"inst_6ACE14AF","path":"rooms/Floor3/Floor3.yy",},
+    {"name":"inst_64213D51","path":"rooms/Floor3/Floor3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -619,6 +620,7 @@
         {"$GMRInstance":"v1","%Name":"inst_77C83957","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77C83957","objectId":{"name":"oShitToilet","path":"objects/oShitToilet/oShitToilet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4576.0,"y":1600.0,},
         {"$GMRInstance":"v1","%Name":"inst_45102F37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45102F37","objectId":{"name":"oShitToilet","path":"objects/oShitToilet/oShitToilet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3200.0,"y":1568.0,},
         {"$GMRInstance":"v1","%Name":"inst_6ACE14AF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6ACE14AF","objectId":{"name":"oShitToilet","path":"objects/oShitToilet/oShitToilet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4000.0,"y":1568.0,},
+        {"$GMRInstance":"v1","%Name":"inst_64213D51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64213D51","objectId":{"name":"oElevatorF4","path":"objects/oElevatorF4/oElevatorF4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":11.5,"scaleY":4.5,"x":1632.0,"y":416.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Sfloor","path":"sprites/Sfloor/Sfloor.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
