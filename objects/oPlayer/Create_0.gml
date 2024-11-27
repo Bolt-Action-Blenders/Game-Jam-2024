@@ -44,12 +44,12 @@ max_stamina = baseStamina;
 cooldown_time = 1;
 experience = 0;
 previous = 0
-range = 50;
+range = 100;
 knockback = range;
 knockback_decay = 0.9;
 killsSinceDrop = 0;
 dropCooldown = 3;
-
+past = 0
 //items
 lysol = true;
 bucket = true;

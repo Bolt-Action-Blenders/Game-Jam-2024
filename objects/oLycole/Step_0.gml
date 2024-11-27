@@ -1,11 +1,7 @@
-// Example: Detect if the target object collides with any object in the list
-// Assuming 'target_object' is the object you're checking for collisions with
-
-// List of objects to check for collisions
 var object_list = [oDemonFast,oDemonGun,oDemonDemo,oDemonPyro,oDemonJuggernaut,oDemonRegular,oDemonRobot,oDemonShotgun,oDemonWorker,oShitDemon,oShitToilet,oSummoner,oFinalBoss]; // Example objects in the list
 
 // Target object (the one you're checking collisions for)
-var target_object = oWater; // This could be any object you want to check (e.g., player or projectile)
+var target_object = oLycole; // This could be any object you want to check (e.g., player or projectile)
 
 // Loop through the list of objects
 for (var i = 0; i <  array_length_1d(object_list); i++) {
@@ -25,7 +21,3 @@ for (var i = 0; i <  array_length_1d(object_list); i++) {
 
     }
 }
-depth=999999999999999999999999999999999999999999
-direction = oPlayer.i
-speed = 10
-timer = 0 
