@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oDemonRobot",
+  "%Name":"oElevatorF2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oWater","path":"objects/oWater/oWater.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oDemonRobot",
+  "name":"oElevatorF2",
   "overriddenProperties":[],
   "parent":{
-    "name":"MeleeDemons",
-    "path":"folders/Objects/Elements/Demons/MeleeDemons.yy",
+    "name":"Elements",
+    "path":"folders/Objects/Elements.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDemon",
-    "path":"sprites/sDemon/sDemon.yy",
+    "name":"Sfloor",
+    "path":"sprites/Sfloor/Sfloor.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sWall",
+    "path":"sprites/sWall/sWall.yy",
+  },
   "visible":true,
 }

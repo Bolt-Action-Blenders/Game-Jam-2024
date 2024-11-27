@@ -30,7 +30,7 @@ y += sign(player_y - x) * v_speed * -1
 // Initialize last_action_time if not already done elsewhere
 
 // Check if the player is within 3 units of the object
-    var demon_cooldown_time = 5;
+    var demon_cooldown_time = 50;
     if (global.time - last_action_time >= demon_cooldown_time) {
 		show_debug_message("Attempt at summon")
         last_action_time = global.time

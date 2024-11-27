@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room = list[flor]
-flor++
+room=Floor3
+oPlayer.x=160
+oPlayer.y=160

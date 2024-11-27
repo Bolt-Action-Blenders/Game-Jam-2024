@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oElevator",
+  "%Name":"oElevatorF3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oElevator",
+  "name":"oElevatorF3",
   "overriddenProperties":[],
   "parent":{
     "name":"Elements",
@@ -30,7 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"Sfloor",
+    "path":"sprites/Sfloor/Sfloor.yy",
+  },
+  "spriteMaskId":{
+    "name":"sWall",
+    "path":"sprites/sWall/sWall.yy",
+  },
   "visible":true,
 }
