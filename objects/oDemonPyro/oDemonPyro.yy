@@ -4,14 +4,13 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oWater","path":"objects/oWater/oWater.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oDemonPyro",
   "overriddenProperties":[],
   "parent":{
     "name":"RangedDemons",
-    "path":"folders/Objects/Elements/Demons/RangedDemons.yy",
+    "path":"folders/Objects/Demons/RangedDemons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

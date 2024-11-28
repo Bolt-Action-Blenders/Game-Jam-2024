@@ -1,6 +1,7 @@
 var nextLevel = 100 + 10*level;
 global.time += 1/fps
 show_debug_message(Playerhealth)
+var enemy_objects = oPlayer.Enemy_objects;
 if (experience >= nextLevel){
 oPlayer.level++
 oPlayer.experience -= nextLevel;
