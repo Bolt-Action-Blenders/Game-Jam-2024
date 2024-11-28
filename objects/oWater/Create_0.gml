@@ -18,9 +18,9 @@ for (var i = 0; i <  array_length_1d(object_list); i++) {
         show_debug_message("Collision detected between " + string(target_object) + " and " + string(current_object));
         
         // Example: Handle the collision (e.g., reduce health of the target)
-        target_object.demonHealth -= 5;
+        target_object.demonHealth -= 1/fps
         
-        // Optionally: Exit the loop early if you only care about the first collision
+        // Optionally: Exit the loop early if you only care about the first collisiona
 		instance_destroy()
 
     }
