@@ -56,4 +56,4 @@ bucket = true;
 ammo = 0;
 keys = 0;
 i = 1
-global.time = 0;
+global.times = 0;

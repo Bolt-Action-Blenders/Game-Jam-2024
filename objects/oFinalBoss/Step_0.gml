@@ -42,7 +42,7 @@ show_debug_message(walksp)
         knockback_strength = 0;   // Reset strength
     }
 	
-	    var demon_cooldown_time = 3; 
+	    var demon_cooldown_time = 5; 
     if (global.time - last_action_time >= demon_cooldown_time) {
         last_action_time = global.time;
 			if (demonHealth < maxHealth / 2){
@@ -53,6 +53,7 @@ show_debug_message(walksp)
 				if (x != player_x && y != player_y && place_meeting(x, y, oFloor) && !place_meeting(x, y, oWall)){
 				teleport = true;
 				projID = irandom_range(1,3)
+				alarm[0]=fps/4
 				}
 				}
 				walksp = 0;
