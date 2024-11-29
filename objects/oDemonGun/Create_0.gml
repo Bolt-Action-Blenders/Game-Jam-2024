@@ -7,7 +7,7 @@ last_action_time = 0;
 
 knockback_strength = 0;
 timer = 0;
-depth = 10
+
 
 size = 0.2
 image_xscale = size;  
