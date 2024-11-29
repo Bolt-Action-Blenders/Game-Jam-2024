@@ -6,7 +6,7 @@ show_debug_message(Playerhealth)
 if (experience >= nextLevel){
 oPlayer.level++
 oPlayer.experience -= nextLevel;
-oPlayer.basehealth *= 1.5;
+oPlayer.baseHealth *= 1.5;
 oPlayer.Playerhealth = baseHealth
 oPlayer.damage *= 1.5;
 oPlayer.stamina *= 1.5
@@ -102,13 +102,14 @@ var burning_damage = 3;
 
 	// Check if the player or object is burninged
 
-if (global.time - last_splash >= 3){
+if (global.time - last_splash >= 5){
 wet = false;
 }
 if (wet){
-		image_blend = c_blue; 
+		image_blend = c_aqua; 
+		is_burning = false;
 }
-if (is_burning && !wet) {
+if (is_burning) {
 if (burning_hits >= 0 && burning_hits <= 5 ){
 	    var burning_cooldown = 3;
 

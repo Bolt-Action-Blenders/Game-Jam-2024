@@ -52,6 +52,8 @@ dropCooldown = 3;
 past = 0
 wet = false;
 last_splash=0;
+bucket_cooldown = 10;
+
 //items
 lysol = true;
 bucket = true;
