@@ -102,8 +102,13 @@ var burning_damage = 3;
 
 	// Check if the player or object is burninged
 
-
-if (is_burning) {
+if (global.time - last_splash >= 3){
+wet = false;
+}
+if (wet){
+		image_blend = c_blue; 
+}
+if (is_burning && !wet) {
 if (burning_hits >= 0 && burning_hits <= 5 ){
 	    var burning_cooldown = 3;
 
@@ -113,6 +118,7 @@ if (burning_hits >= 0 && burning_hits <= 5 ){
         burning_last_time = global.time;
 		show_debug_message("it burns spare me pls")
 		audio_play_sound(hurt, 1, false)
+		image_blend = c_red; 
     }
 } else {
 is_burning = false;
@@ -132,6 +138,7 @@ if (poison_hits <= 3){
 		poison_hits++;
 		show_debug_message("it poisons spare me pls")
 		audio_play_sound(hurt, 1, false)
+				image_blend = c_green; 
     }
 } else {
 poison_hits = 0;
@@ -139,3 +146,6 @@ is_poisoned = false;
 }
 }
 
+if (!is_poisoned && !is_burning && !wet){
+		image_blend = c_white;
+}

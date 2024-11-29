@@ -50,6 +50,8 @@ knockback_decay = 0.9;
 killsSinceDrop = 0;
 dropCooldown = 3;
 past = 0
+wet = false;
+last_splash=0;
 //items
 lysol = true;
 bucket = true;
