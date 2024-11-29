@@ -1,4 +1,6 @@
 var nextLevel = 100 + 10*level;
+room_speed = 60;
+global.times++
 global.time += 1/fps
 show_debug_message(Playerhealth)
 if (experience >= nextLevel){

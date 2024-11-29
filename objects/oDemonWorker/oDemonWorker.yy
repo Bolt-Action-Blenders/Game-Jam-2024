@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"MeleeDemons",
-    "path":"folders/Objects/Elements/Demons/MeleeDemons.yy",
+    "path":"folders/Objects/Demons/MeleeDemons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

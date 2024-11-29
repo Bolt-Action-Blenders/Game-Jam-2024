@@ -10,3 +10,5 @@ knockback_strength = 0;
 depth = 10
 demonHealth = 100;
 maxHealth = demonHealth;
+image_xscale=6
+image_yscale=6
