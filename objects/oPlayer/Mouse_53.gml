@@ -1,8 +1,6 @@
-var rangedExp = [15, 15, 15, 15];
-var meleeExp = [10, 10, 10, 10, 10, 10, 10, 10, 10];
 var enemy_x;
 var enemy_y;
-var enemy_objects = [oFinalBoss, oDemonRegular, oDemonFast, oDemonJuggernaut, oDemonRobot, oDemonWorker, oSpiderFilth, oDemonGun, oDemonDemo, oDemonPyro, oDemonShotgun, oDemonScout, oSummoner, oShitToilet, oTrap];
+var enemy_objects = [oFinalBoss, oDemonRegular, oDemonFast, oDemonJuggernaut, oDemonRobot, oDemonWorker, oSpiderFilth, oDemonGun, oDemonDemo, oDemonPyro, oDemonShotgun, oShitDemon, oDemonScout, oSummoner, oShitToilet, oTrap];
 
 var closest_enemy = noone;  // Start with no closest enemy
 var min_distance = 999999;  // Start with a very large distance
@@ -69,7 +67,7 @@ if (closest_enemy != noone) {
 						instance_create_depth(enemy_x, enemy_y, 0, oCheese);
 						killsSinceDrop = 0;
 				}
-			oPlayer.experience += 15;
+			oPlayer.experience += 50;
                 instance_destroy(closest_enemy);  // Destroy the defeated enemy
             }
         }

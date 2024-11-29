@@ -2,7 +2,7 @@ game_set_speed(60, 60);
 image_xscale = 4; // Scale width to 2x
 image_yscale = 4; // Scale height to 2x
 depth = -99999999
-meleeBaseDamage = [2, 10, 35, 2, 20, 25, 9, 1, 1];
+meleeBaseDamage = [2, 10, 5, 2, 20, 25, 9, 1, 1];
 //ype = {"Regular", "Shit", "Juggernaut", "Fast", "Scout", "Heavy", "Robot", "Worker", "Spiderfilth"};
 meleeCooldownTimes = [1.5, 3, 3, 0.4, 1.5, 2, 1.4, 0.7]
 meleeExp = [10, 10, 10, 10, 10, 10, 10, 10, 10];
