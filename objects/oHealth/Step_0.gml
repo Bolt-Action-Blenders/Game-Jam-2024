@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_xscale = oPlayer.Playerhealth / 9
+image_xscale = oPlayer.Playerhealth / 15
 x=view_xport 
 y=view_yport 
 var cam = view_camera[0]; // Using the default camera

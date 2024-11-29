@@ -1,12 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
-if bucket = true && global.times-lastthingy>=1 {
-	
-	i = 0
-for( i =0;i!=360;i+=20){
-instance_create_layer(x,y,"instances",oWater)
-
-}
-lastthingy = global.times
-
-}
+    if (keyboard_check(ord("space") && oPlayer.bucket)) {				
+				        if (global.time - last_splash >= bucket_cooldown) {
+				wet = true;
+				 last_splash = global.time;
+				 audio_play_sound(water_splash_199583, 1, false)
+            }
+        }

@@ -54,6 +54,8 @@ instance_create_layer(x,y,"instances",oFire)
 instance_create_layer(x,y,"instances",oFire)
 	global.point = point_direction(x,y,oPlayer.x,oPlayer.y)
 instance_create_layer(x,y,"instances",oFire)
-audio_play_sound(flamethrower, 1, false)
+if (!audio_is_playing(flamethrower)) {
+    audio_play_sound(flamethrower, 1, false); 
+}
 timer = 0
 }}
