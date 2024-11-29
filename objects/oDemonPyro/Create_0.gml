@@ -6,7 +6,7 @@ h_speed = 0;
 last_action_time = 0;
 knockback_strength = 0;
 timer = 0
-depth = 10
+
 size = 4
 image_xscale = size;  
 image_yscale = size;  
