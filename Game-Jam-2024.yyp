@@ -106,6 +106,7 @@
     {"id":{"name":"oWallFake","path":"objects/oWallFake/oWallFake.yy",},},
     {"id":{"name":"oWater","path":"objects/oWater/oWater.yy",},},
     {"id":{"name":"Checkpoint","path":"rooms/Checkpoint/Checkpoint.yy",},},
+    {"id":{"name":"Floor0","path":"rooms/Floor0/Floor0.yy",},},
     {"id":{"name":"Floor1","path":"rooms/Floor1/Floor1.yy",},},
     {"id":{"name":"Floor2","path":"rooms/Floor2/Floor2.yy",},},
     {"id":{"name":"Floor3","path":"rooms/Floor3/Floor3.yy",},},
@@ -180,6 +181,7 @@
     {"roomId":{"name":"Floor5","path":"rooms/Floor5/Floor5.yy",},},
     {"roomId":{"name":"Floor3","path":"rooms/Floor3/Floor3.yy",},},
     {"roomId":{"name":"Floor4","path":"rooms/Floor4/Floor4.yy",},},
+    {"roomId":{"name":"Floor0","path":"rooms/Floor0/Floor0.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

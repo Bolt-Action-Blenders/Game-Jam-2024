@@ -72,6 +72,7 @@
     {"name":"oWallFake","order":9,"path":"objects/oWallFake/oWallFake.yy",},
     {"name":"oWater","order":4,"path":"objects/oWater/oWater.yy",},
     {"name":"Checkpoint","order":1,"path":"rooms/Checkpoint/Checkpoint.yy",},
+    {"name":"Floor0","order":7,"path":"rooms/Floor0/Floor0.yy",},
     {"name":"Floor2","order":1,"path":"rooms/Floor2/Floor2.yy",},
     {"name":"Floor3","order":5,"path":"rooms/Floor3/Floor3.yy",},
     {"name":"Floor4","order":6,"path":"rooms/Floor4/Floor4.yy",},
