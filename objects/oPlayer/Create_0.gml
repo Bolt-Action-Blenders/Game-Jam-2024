@@ -1,8 +1,7 @@
 game_set_speed(60, 60);
 image_xscale = 4; // Scale width to 2x
 image_yscale = 4; // Scale height to 2x
-depth = -99999999
-meleeBaseDamage = [2, 10, 35, 2, 20, 25, 9, 1, 1];
+meleeBaseDamage = [2, 10, 5, 2, 20, 25, 9, 1, 1];
 //ype = {"Regular", "Shit", "Juggernaut", "Fast", "Scout", "Heavy", "Robot", "Worker", "Spiderfilth"};
 meleeCooldownTimes = [1.5, 3, 3, 0.4, 1.5, 2, 1.4, 0.7]
 meleeExp = [10, 10, 10, 10, 10, 10, 10, 10, 10];
@@ -50,6 +49,18 @@ knockback_decay = 0.9;
 killsSinceDrop = 0;
 dropCooldown = 3;
 past = 0
+wet = false;
+last_splash=0;
+last_shot = 0;
+bucket_cooldown = 10;
+line_start_x = 0;
+line_start_y = 0;
+line_end_x = 0;
+line_end_y = 0;
+line_start_time = -1; // -1 indicates no line is being drawn
+
+Enemies = [oFinalBoss, oDemonRegular, oDemonFast, oDemonJuggernaut, oDemonRobot, oDemonWorker, oSpiderFilth, oDemonGun, oDemonDemo, oDemonPyro, oDemonShotgun, oDemonScout, oSummoner, oShitDemon, oShitToilet, oTrap];
+
 //items
 lysol = true;
 bucket = true;
