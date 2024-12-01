@@ -8,7 +8,7 @@ h_speed = 0;
 last_action_time = 0;
 knockback_strength = 0;
 
-demonHealth = 100;
+demonHealth = 150;
 maxHealth = demonHealth;
 image_xscale=6
 image_yscale=6

@@ -1,4 +1,4 @@
-demonHealth = 10 * (oPlayer.level * 1.1);
+demonHealth = 10
 walksp = 2;
 range = 10;
 v_speed = 0;
