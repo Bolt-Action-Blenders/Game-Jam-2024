@@ -1,3 +1,4 @@
+game_set_speed(60, 60);
 var nextLevel = 100 + 10*level;
 room_speed = 60;
 global.time += 1/fps

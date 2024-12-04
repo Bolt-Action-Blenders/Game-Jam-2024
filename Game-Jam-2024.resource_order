@@ -115,6 +115,7 @@
     {"name":"sLysol","order":4,"path":"sprites/sLysol/sLysol.yy",},
     {"name":"sMedium","order":14,"path":"sprites/sMedium/sMedium.yy",},
     {"name":"sMop","order":2,"path":"sprites/sMop/sMop.yy",},
+    {"name":"sMopBloody","order":6,"path":"sprites/sMopBloody/sMopBloody.yy",},
     {"name":"Spantsshitinglscary","order":1,"path":"sprites/Spantsshitinglscary/Spantsshitinglscary.yy",},
     {"name":"sPlayerHitbox","order":10,"path":"sprites/sPlayerHitbox/sPlayerHitbox.yy",},
     {"name":"sposter_image","order":4,"path":"sprites/sposter_image/sposter_image.yy",},

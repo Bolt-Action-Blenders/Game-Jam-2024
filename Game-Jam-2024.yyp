@@ -155,6 +155,7 @@
     {"id":{"name":"sLysol","path":"sprites/sLysol/sLysol.yy",},},
     {"id":{"name":"sMedium","path":"sprites/sMedium/sMedium.yy",},},
     {"id":{"name":"sMop","path":"sprites/sMop/sMop.yy",},},
+    {"id":{"name":"sMopBloody","path":"sprites/sMopBloody/sMopBloody.yy",},},
     {"id":{"name":"Spantsshitinglscary","path":"sprites/Spantsshitinglscary/Spantsshitinglscary.yy",},},
     {"id":{"name":"sPlayerHitbox","path":"sprites/sPlayerHitbox/sPlayerHitbox.yy",},},
     {"id":{"name":"sposter_image","path":"sprites/sposter_image/sposter_image.yy",},},
