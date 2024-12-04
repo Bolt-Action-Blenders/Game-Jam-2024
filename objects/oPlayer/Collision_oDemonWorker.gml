@@ -8,7 +8,7 @@ if (distance_to_object(oDemonWorker) <= 3) {
     var demon_cooldown_time = rangedCooldownTimes[demonID];
     if (global.time - last_action_time >= demon_cooldown_time) {
         // Apply damage to the player
-		health -= level * rangedBaseDamage[demonID];
+		Playerhealth -= 1;
         // Update the last action time to the current global time
         last_action_time = global.time;
 		audio_play_sound(hurt, 1, false)

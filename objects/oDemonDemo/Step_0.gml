@@ -1,6 +1,10 @@
 if (!instance_exists(oPlayer)) {
     return; // Exit the event if oPlayer doesn't exist
 }
+sprite_index = sDemo;
+show_debug_message("Demo sprite: " + string(sprite_index));
+image_alpha = 1; // Fully opaque
+
 
 // Check if the enemy's health is less than or equal to 0, and destroy the instance if so
 if (demonHealth <= 0) {
