@@ -1,3 +1,7 @@
+if (!instance_exists(oPlayer)) {
+    return; // Exit the event if oPlayer doesn't exist
+}
+
 // Check if the enemy's health is less than or equal to 0, and destroy the instance if so
 if (demonHealth <= 0) {
     instance_destroy(); // Destroy this instance of the enemy
@@ -50,6 +54,8 @@ instance_create_layer(x,y,"instances",oFire)
 instance_create_layer(x,y,"instances",oFire)
 	global.point = point_direction(x,y,oPlayer.x,oPlayer.y)
 instance_create_layer(x,y,"instances",oFire)
-audio_play_sound(flamethrower, 1, false)
+if (!audio_is_playing(flamethrower)) {
+    audio_play_sound(flamethrower, 1, false); 
+}
 timer = 0
 }}

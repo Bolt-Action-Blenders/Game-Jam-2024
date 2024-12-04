@@ -1,4 +1,5 @@
-if (mouse_check_button_pressed(mb_right)) {
+draw_self(); // Draws the assigned sprite
+if (mouse_check_button_pressed(mb_right) && oPlayer.lysol) {
     var blood_puddle = instance_place(x, y, oBloodPuddle);
     if (blood_puddle != noone) {
         instance_destroy(blood_puddle);

@@ -1,8 +1,9 @@
 game_set_speed(60, 60);
+oPlayer.health = 100;
 var nextLevel = 100 + 10*level;
 room_speed = 60;
 global.time += 1/fps
-show_debug_message(Playerhealth)
+show_debug_message(global.time)
 if (experience >= nextLevel){
 oPlayer.level++
 oPlayer.experience -= nextLevel;
@@ -70,6 +71,7 @@ if (angle >= 45 && angle < 135) {
     sprite_index = playerRight; // Facing right
 }
 }
+show_debug_message("Player sprite: " + string(sprite_index));
 if (keyboard_check(vk_shift) && stamina > 0) {
     sprinting = true;  // Player is sprinting
     h_speed *= 2;      // Sprint speed multiplier (e.g., 2x)
@@ -125,6 +127,7 @@ wet = false;
 if (wet){
 		image_blend = c_aqua; 
 		is_burning = false;
+		is_poisoned = false;
 }
 if (is_burning) {
 if (burning_hits >= 0 && burning_hits <= 5 ){
@@ -143,27 +146,20 @@ is_burning = false;
 burning_hits = 0;
 }
 }
-//Poison stuff
-var poison_damage = 3;
-
-	// Check if the player or object is poisoned
 if (is_poisoned) {
-if (poison_hits <= 3){
-	    var poison_cooldown = 3; // Set the cooldown time (in frames)
-    if (global.time - poison_last_time >= global.time) {
-       Playerhealth -= poison_damage
+if (poison_hits >= 0 && poison_hits <= 5 ){
+	    var burning_cooldown = 3;
+
+    if (global.time - poison_last_time >= burning_cooldown) {
+				poison_hits++;
+       Playerhealth -= 10;
         poison_last_time = global.time;
-		poison_hits++;
-		show_debug_message("it poisons spare me pls")
+		show_debug_message("it burns spare me pls")
 		audio_play_sound(hurt, 1, false)
-				image_blend = c_green; 
+		image_blend = c_green; 
     }
 } else {
-poison_hits = 0;
 is_poisoned = false;
+poison_hits = 0;
 }
-}
-
-if (!is_poisoned && !is_burning && !wet){
-		image_blend = c_white;
 }

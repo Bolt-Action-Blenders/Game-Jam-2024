@@ -3,7 +3,7 @@ if (mouse_check_button_pressed(mb_right)) {
     var blood_puddle = instance_place(x, y, oBloodPuddle);
     if (blood_puddle != noone) {
         instance_destroy(blood_puddle);
-    } else {
+    } else if(oPlayer.lysol) {
         // Enemy processing
         var enemy_x, enemy_y;
         var enemy_objects = oPlayer.Enemies;

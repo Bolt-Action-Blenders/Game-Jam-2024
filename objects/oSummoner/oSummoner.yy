@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSummoner",
-    "path":"sprites/sSummoner/sSummoner.yy",
+    "name":"sSummonerWalk",
+    "path":"sprites/sSummonerWalk/sSummonerWalk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

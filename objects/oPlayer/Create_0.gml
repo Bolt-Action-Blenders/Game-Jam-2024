@@ -1,6 +1,8 @@
 game_set_speed(60, 60);
 image_xscale = 4; // Scale width to 2x
 image_yscale = 4; // Scale height to 2x
+depth = -9999
+image_alpha = 1;
 meleeBaseDamage = [2, 10, 5, 2, 20, 25, 9, 1, 1];
 //ype = {"Regular", "Shit", "Juggernaut", "Fast", "Scout", "Heavy", "Robot", "Worker", "Spiderfilth"};
 meleeCooldownTimes = [1.5, 3, 3, 0.4, 1.5, 2, 1.4, 0.7]
@@ -31,7 +33,7 @@ v_speed = 0;
 sprinting = false;          
 baseHealth = 100/(1+global.i);
 baseStamina = 100;
-baseDamage = 3;
+baseDamage = 10;
 blood = 0;
 armour = 1;
 level = 1;
@@ -62,8 +64,8 @@ line_start_time = -1; // -1 indicates no line is being drawn
 Enemies = [oFinalBoss, oDemonRegular, oDemonFast, oDemonJuggernaut, oDemonRobot, oDemonWorker, oSpiderFilth, oDemonGun, oDemonDemo, oDemonPyro, oDemonShotgun, oDemonScout, oSummoner, oShitDemon, oShitToilet, oTrap];
 
 //items
-lysol = true;
-bucket = true;
+lysol = false;
+bucket = false;
 ammo = 0;
 keys = 0;
 i = 1

@@ -1,4 +1,3 @@
-/*
 var enemy_x;
 var enemy_y;
 var enemy_objects = oPlayer.Enemies;
@@ -59,6 +58,17 @@ if (closest_enemy != noone) {
 			} else {
 			audio_play_sound(sound2__1_, 1, false)
 			}
+			    // Calculate the spawn position based on the player's direction
+    var mop_distance = 16; // Distance from the player
+    var mop_x = x + lengthdir_x(mop_distance, direction);
+    var mop_y = y + lengthdir_y(mop_distance, direction);
+
+    // Create the mop object
+    var mop_instance = instance_create_layer(mop_x, mop_y, "instances", oMop);
+
+    // Set the mop's direction and angle to match the player's
+    mop_instance.direction = direction + 45;   // Set movement direction
+    mop_instance.image_angle = direction + 45; // Set facing angle
 			 			audio_play_sound(mixkit_fast_sword_whoosh_2792, 1, false)
             // If the closest enemy's health is <= 0, grant experience and handle removal
 			i--

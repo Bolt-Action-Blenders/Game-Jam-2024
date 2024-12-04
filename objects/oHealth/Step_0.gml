@@ -1,3 +1,6 @@
+if (!instance_exists(oPlayer)) {
+    return; // Exit the event if oPlayer doesn't exist
+}
 /// @description Insert description here
 // You can write your code in this editor
 image_xscale = oPlayer.Playerhealth / 9
